@@ -1,6 +1,7 @@
 # inventory/models.py
 
 from django.db import models
+from django.contrib.auth.models import User
 
 class Supplier(models.Model):
     name = models.CharField(max_length=255)
@@ -32,3 +33,14 @@ class Product(models.Model):
 
     def __str__(self):
         return f"{self.name} ({self.sku})"
+    
+# --- ADD THIS NEW MODEL CLASS AT THE END OF THE FILE ---
+class StockMovement(models.Model):
+    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='movements')
+    quantity_change = models.IntegerField()
+    reason = models.CharField(max_length=255)
+    user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)
+    timestamp = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.product.name}: {self.quantity_change} on {self.timestamp}"
