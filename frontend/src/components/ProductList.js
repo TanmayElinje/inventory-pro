@@ -123,7 +123,17 @@ const ProductList = () => {
     };
     
     const handleCloseModal = () => setModalState({ type: null, data: null });
-    const handleActionSuccess = () => { navigate(0); handleCloseModal(); };
+    const handleActionSuccess = () => {
+    // Re-fetch products after any action (add/edit/adjust stock)
+    const params = new URLSearchParams(location.search);
+    if (categoryId) params.set('category', categoryId);
+
+    api.get(`/api/products/?${params.toString()}`)
+       .then(response => setProducts(response.data.results))
+       .catch(err => console.error(err));
+
+    handleCloseModal();
+};
     const handleDelete = async (productId) => { if (window.confirm('Are you sure?')) { try { await api.delete(`/api/products/${productId}/`); handleActionSuccess(); } catch (error) { setError('Could not delete product.'); } } };
     
     const totalPages = Math.ceil((pagination?.count || 0) / 50);

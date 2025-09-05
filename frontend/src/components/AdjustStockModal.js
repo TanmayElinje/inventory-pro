@@ -18,7 +18,7 @@ const AdjustStockModal = ({ show, handleClose, product, onStockUpdated }) => {
     api.post(`/api/products/${product.id}/adjust_stock/`, data)
         .then(res => {
             onStockUpdated(res.data);
-            handleClose();
+            //handleClose();
         })
         .catch(err => {
             // --- NEW, MORE DETAILED ERROR HANDLING ---
