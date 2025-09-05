@@ -2,6 +2,7 @@ from pathlib import Path
 import os
 from dotenv import load_dotenv
 from decouple import config
+import dj_database_url
 
 load_dotenv()
 
@@ -59,17 +60,19 @@ TEMPLATES = [
 WSGI_APPLICATION = 'backend.wsgi.application'
 ASGI_APPLICATION = 'backend.asgi.application'
 
-# Database configuration for local MySQL
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.getenv('DB_NAME'),
-        'USER': os.getenv('DB_USER'),
-        'PASSWORD': os.getenv('DB_PASSWORD'),
-        'HOST': os.getenv('DB_HOST'),
-        'PORT': os.getenv('DB_PORT'),
-    }
+    'default': dj_database_url.config(
+        # This will default to your local .env settings if DATABASE_URL is not found
+        default=f"mysql://{config('DB_USER')}:{config('DB_PASSWORD')}@{config('DB_HOST')}:{config('DB_PORT')}/{config('DB_NAME')}",
+        conn_max_age=600
+    )
 }
+
+# --- THIS IS THE FIX ---
+# If a DATABASE_URL is found (meaning we are on Render with Postgres),
+# force Django to use the correct Postgres engine.
+if 'DATABASE_URL' in os.environ:
+    DATABASES['default']['ENGINE'] = 'django.db.backends.postgresql'
 
 AUTH_PASSWORD_VALIDATORS = [
     {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',},
