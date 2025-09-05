@@ -60,19 +60,28 @@ TEMPLATES = [
 WSGI_APPLICATION = 'backend.wsgi.application'
 ASGI_APPLICATION = 'backend.asgi.application'
 
-DATABASES = {
-    'default': dj_database_url.config(
-        # This will default to your local .env settings if DATABASE_URL is not found
-        default=f"mysql://{config('DB_USER')}:{config('DB_PASSWORD')}@{config('DB_HOST')}:{config('DB_PORT')}/{config('DB_NAME')}",
-        conn_max_age=600
-    )
-}
-
-# --- THIS IS THE FIX ---
-# If a DATABASE_URL is found (meaning we are on Render with Postgres),
-# force Django to use the correct Postgres engine.
+# --- NEW, ROBUST DATABASE CONFIGURATION ---
 if 'DATABASE_URL' in os.environ:
+    # Production settings: Read the single DATABASE_URL from Render
+    DATABASES = {
+        'default': dj_database_url.config(
+            conn_max_age=600,
+            conn_health_checks=True,
+        )
+    }
     DATABASES['default']['ENGINE'] = 'django.db.backends.postgresql'
+else:
+    # Local development settings: Read individual variables from .env
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': config('DB_NAME'),
+            'USER': config('DB_USER'),
+            'PASSWORD': config('DB_PASSWORD'),
+            'HOST': config('DB_HOST'),
+            'PORT': config('DB_PORT'),
+        }
+    }
 
 AUTH_PASSWORD_VALIDATORS = [
     {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',},
