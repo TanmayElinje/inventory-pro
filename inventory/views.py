@@ -12,6 +12,9 @@ from rest_framework.views import APIView
 from django_filters.rest_framework import DjangoFilterBackend
 from .serializers import RegisterSerializer
 from rest_framework import generics
+from django.http import HttpResponse
+from django.contrib.admin.views.decorators import staff_member_required
+from django.core.management import call_command
 
 from .models import Supplier, Category, Product, StockMovement
 from .serializers import (
@@ -220,4 +223,10 @@ def top_selling_products_view(request):
         .order_by('-units_sold')[:5]
     
     return Response(list(top_products))
+
+
+@staff_member_required
+def seed_db(request):
+    call_command('seed_data')
+    return HttpResponse("Database seeded!")
     

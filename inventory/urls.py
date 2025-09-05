@@ -9,6 +9,7 @@ from .views import (
 from .views import product_qrcode_view
 from .views import top_selling_products_view
 from .views import RegisterView 
+from inventory.views import seed_db
 
 router = DefaultRouter()
 router.register(r'suppliers', SupplierViewSet)
@@ -24,4 +25,5 @@ urlpatterns = [
     path('products/<int:pk>/qrcode/', product_qrcode_view, name='product-qrcode'),
     path('analytics/top-products/', top_selling_products_view, name='top-products'),
     path('register/', RegisterView.as_view(), name='register'),
+    path('admin/seed-db/', seed_db, name='seed-db'),
 ]
