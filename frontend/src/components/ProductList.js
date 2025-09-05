@@ -85,7 +85,7 @@ const ProductList = () => {
     React.useEffect(() => {
         const token = localStorage.getItem('access_token');
         if (!token) return;
-        const socket = new WebSocket(`ws://localhost:8000/ws/products/?token=${token}`);
+        const socket = new WebSocket(`wss://inventory-pro-49re.onrender.com/ws/products/?token=${token}`);
         socket.onmessage = (event) => {
             const data = JSON.parse(event.data);
             if (data.type === 'product_update') {

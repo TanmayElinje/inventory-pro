@@ -110,7 +110,7 @@ const ProductDetailPage = () => {
                             ) : (
                                 <img src={'https://via.placeholder.com/400x400.png?text=No+Image'} alt="Placeholder" className="img-fluid rounded mb-3" />
                             )}
-                            <img src={`http://127.0.0.1:8000/api/products/${id}/qrcode/`} alt={`QR Code for ${product.name}`} style={{ width: '120px', height: '120px' }} />
+                            <img src={`https://inventory-pro-49re.onrender.com/api/products/${id}/qrcode/`} alt={`QR Code for ${product.name}`} style={{ width: '120px', height: '120px' }} />
                         </Col>
                     </Row>
                 </Card.Body>
