@@ -2,6 +2,7 @@
 
 from django.db import models
 from django.contrib.auth.models import User
+from django.utils import timezone
 
 class Supplier(models.Model):
     name = models.CharField(max_length=255)
@@ -12,6 +13,7 @@ class Supplier(models.Model):
 
 class Category(models.Model):
     name = models.CharField(max_length=100, unique=True)
+    image_url = models.URLField(max_length=500, null=True, blank=True)
 
     class Meta:
         verbose_name_plural = "Categories" # Fixes the pluralization in the admin panel
@@ -38,9 +40,16 @@ class Product(models.Model):
 class StockMovement(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='movements')
     quantity_change = models.IntegerField()
-    reason = models.CharField(max_length=255)
+    reason = models.CharField(max_length=255, blank=True)
     user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)
-    timestamp = models.DateTimeField(auto_now_add=True)
+    timestamp = models.DateTimeField(default=timezone.now)
 
     def __str__(self):
         return f"{self.product.name}: {self.quantity_change} on {self.timestamp}"
+    
+class ProductImage(models.Model):
+    product = models.ForeignKey(Product, related_name='images', on_delete=models.CASCADE)
+    image = models.URLField(max_length=500) 
+
+    def __str__(self):
+        return f"Image for {self.product.name}"

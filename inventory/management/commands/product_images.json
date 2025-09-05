@@ -1,0 +1,689 @@
+{
+    "Smartphones": {
+        "Apple iPhone 15 Pro": [
+            "https://images.unsplash.com/photo-1703133431079-8477009d42b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxBcHBsZSUyMGlQaG9uZSUyMDE1JTIwUHJvfGVufDB8fHx8MTc1NzAxMTgxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1730704536154-2e37ba8d11a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxBcHBsZSUyMGlQaG9uZSUyMDE1JTIwUHJvfGVufDB8fHx8MTc1NzAxMTgxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1697284958347-456dcbba6a24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxBcHBsZSUyMGlQaG9uZSUyMDE1JTIwUHJvfGVufDB8fHx8MTc1NzAxMTgxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1695639516809-7688b5a97554?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxBcHBsZSUyMGlQaG9uZSUyMDE1JTIwUHJvfGVufDB8fHx8MTc1NzAxMTgxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1695639526461-7244f263119c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxBcHBsZSUyMGlQaG9uZSUyMDE1JTIwUHJvfGVufDB8fHx8MTc1NzAxMTgxN3ww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Samsung Galaxy S24 Ultra": [
+            "https://images.unsplash.com/photo-1705530292519-ec81f2ace70d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxTYW1zdW5nJTIwR2FsYXh5JTIwUzI0JTIwVWx0cmF8ZW58MHx8fHwxNzU3MDExODE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1705585174953-9b2aa8afc174?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxTYW1zdW5nJTIwR2FsYXh5JTIwUzI0JTIwVWx0cmF8ZW58MHx8fHwxNzU3MDExODE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1705585175110-d25f92c183aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxTYW1zdW5nJTIwR2FsYXh5JTIwUzI0JTIwVWx0cmF8ZW58MHx8fHwxNzU3MDExODE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1706989239865-25552e6f2c9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxTYW1zdW5nJTIwR2FsYXh5JTIwUzI0JTIwVWx0cmF8ZW58MHx8fHwxNzU3MDExODE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1706989239873-ec28064b952e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxTYW1zdW5nJTIwR2FsYXh5JTIwUzI0JTIwVWx0cmF8ZW58MHx8fHwxNzU3MDExODE4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Google Pixel 8 Pro": [
+            "https://images.unsplash.com/photo-1706412703794-d944cd3625b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxHb29nbGUlMjBQaXhlbCUyMDglMjBQcm98ZW58MHx8fHwxNzU3MDExODQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1697355360151-2866de32ad4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxHb29nbGUlMjBQaXhlbCUyMDglMjBQcm98ZW58MHx8fHwxNzU3MDExODQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1657731739178-18018dc42854?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxHb29nbGUlMjBQaXhlbCUyMDglMjBQcm98ZW58MHx8fHwxNzU3MDExODQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1729795838202-3babba7df175?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxHb29nbGUlMjBQaXhlbCUyMDglMjBQcm98ZW58MHx8fHwxNzU3MDExODQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1642779453432-060382fc3b00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxHb29nbGUlMjBQaXhlbCUyMDglMjBQcm98ZW58MHx8fHwxNzU3MDExODQ5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "OnePlus 12": [
+            "https://images.unsplash.com/photo-1710676681983-1c7eb41a8094?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxPbmVQbHVzJTIwMTJ8ZW58MHx8fHwxNzU3MDExODUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1665820836428-d7d1c9ba07d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxPbmVQbHVzJTIwMTJ8ZW58MHx8fHwxNzU3MDExODUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1665821310156-142a329bd9dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxPbmVQbHVzJTIwMTJ8ZW58MHx8fHwxNzU3MDExODUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1665835810868-b9a8d3f5b81c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxPbmVQbHVzJTIwMTJ8ZW58MHx8fHwxNzU3MDExODUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1614121656832-dca4ae39e474?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxPbmVQbHVzJTIwMTJ8ZW58MHx8fHwxNzU3MDExODUxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Xiaomi 14": [
+            "https://images.unsplash.com/photo-1739971946251-5f7916504206?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxYaWFvbWklMjAxNHxlbnwwfHx8fDE3NTcwMTE4NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1664115170143-92dde9c5b54c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxYaWFvbWklMjAxNHxlbnwwfHx8fDE3NTcwMTE4NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1661268213353-3f7a8b2929cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxYaWFvbWklMjAxNHxlbnwwfHx8fDE3NTcwMTE4NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1661267990546-74312bcb1d15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxYaWFvbWklMjAxNHxlbnwwfHx8fDE3NTcwMTE4NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1664115000407-5ecfeb1da915?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxYaWFvbWklMjAxNHxlbnwwfHx8fDE3NTcwMTE4NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Motorola Edge+": [
+            "https://images.unsplash.com/photo-1686242625638-1cf04a14f554?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxNb3Rvcm9sYSUyMEVkZ2UlMkJ8ZW58MHx8fHwxNzU3MDExODUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1681928411603-f44aea785a28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxNb3Rvcm9sYSUyMEVkZ2UlMkJ8ZW58MHx8fHwxNzU3MDExODUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1688281366628-4f63eae64395?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxNb3Rvcm9sYSUyMEVkZ2UlMkJ8ZW58MHx8fHwxNzU3MDExODUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1716930686282-ea19761e78a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxNb3Rvcm9sYSUyMEVkZ2UlMkJ8ZW58MHx8fHwxNzU3MDExODUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1590085080494-8cae3ae1abee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxNb3Rvcm9sYSUyMEVkZ2UlMkJ8ZW58MHx8fHwxNzU3MDExODUzfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ]
+    },
+    "Laptops": {
+        "Apple MacBook Air M3": [
+            "https://images.unsplash.com/photo-1710905085962-ceb559cb5eab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxBcHBsZSUyME1hY0Jvb2slMjBBaXIlMjBNM3xlbnwwfHx8fDE3NTcwMTE4MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1710905018864-d585574d79f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxBcHBsZSUyME1hY0Jvb2slMjBBaXIlMjBNM3xlbnwwfHx8fDE3NTcwMTE4MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1710905129498-e7d0c21ac011?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxBcHBsZSUyME1hY0Jvb2slMjBBaXIlMjBNM3xlbnwwfHx8fDE3NTcwMTE4MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1710905219584-8521769e3678?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxBcHBsZSUyME1hY0Jvb2slMjBBaXIlMjBNM3xlbnwwfHx8fDE3NTcwMTE4MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1710905261040-e2f8fc20e4b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxBcHBsZSUyME1hY0Jvb2slMjBBaXIlMjBNM3xlbnwwfHx8fDE3NTcwMTE4MTl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Dell XPS 15": [
+            "https://images.unsplash.com/photo-1622286346003-c5c7e63b1088?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxEZWxsJTIwWFBTJTIwMTV8ZW58MHx8fHwxNzU3MDExODIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxEZWxsJTIwWFBTJTIwMTV8ZW58MHx8fHwxNzU3MDExODIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1720556405438-d67f0f9ecd44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxEZWxsJTIwWFBTJTIwMTV8ZW58MHx8fHwxNzU3MDExODIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1637035892204-c82b7f83c36d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxEZWxsJTIwWFBTJTIwMTV8ZW58MHx8fHwxNzU3MDExODIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1575320854760-bfffc3550640?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxEZWxsJTIwWFBTJTIwMTV8ZW58MHx8fHwxNzU3MDExODIxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "HP Spectre x360": [
+            "https://images.unsplash.com/photo-1589561084283-930aa7b1ce50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxIUCUyMFNwZWN0cmUlMjB4MzYwfGVufDB8fHx8MTc1NzAxMTg1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1619532550465-ad4dc9bd680a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxIUCUyMFNwZWN0cmUlMjB4MzYwfGVufDB8fHx8MTc1NzAxMTg1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1658312226966-29bd4e77c62c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxIUCUyMFNwZWN0cmUlMjB4MzYwfGVufDB8fHx8MTc1NzAxMTg1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1589561190002-96f5462f81e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxIUCUyMFNwZWN0cmUlMjB4MzYwfGVufDB8fHx8MTc1NzAxMTg1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1658312227565-439994de5fe7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxIUCUyMFNwZWN0cmUlMjB4MzYwfGVufDB8fHx8MTc1NzAxMTg1NXww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Lenovo ThinkPad X1 Carbon": [
+            "https://images.unsplash.com/photo-1626890870463-9ce3b755f98c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxMZW5vdm8lMjBUaGlua1BhZCUyMFgxJTIwQ2FyYm9ufGVufDB8fHx8MTc1NzAxMTg1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1641853257349-827d9cef71f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxMZW5vdm8lMjBUaGlua1BhZCUyMFgxJTIwQ2FyYm9ufGVufDB8fHx8MTc1NzAxMTg1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1642047187043-cab5b06830e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxMZW5vdm8lMjBUaGlua1BhZCUyMFgxJTIwQ2FyYm9ufGVufDB8fHx8MTc1NzAxMTg1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1693387593111-124ff0e01e23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxMZW5vdm8lMjBUaGlua1BhZCUyMFgxJTIwQ2FyYm9ufGVufDB8fHx8MTc1NzAxMTg1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1683823363266-efa8cedec4d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxMZW5vdm8lMjBUaGlua1BhZCUyMFgxJTIwQ2FyYm9ufGVufDB8fHx8MTc1NzAxMTg1Nnww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Microsoft Surface Laptop 5": [
+            "https://images.unsplash.com/photo-1664574653790-cee0e10a4242?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxNaWNyb3NvZnQlMjBTdXJmYWNlJTIwTGFwdG9wJTIwNXxlbnwwfHx8fDE3NTcwMTE4NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1617780421515-08fae9caa171?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxNaWNyb3NvZnQlMjBTdXJmYWNlJTIwTGFwdG9wJTIwNXxlbnwwfHx8fDE3NTcwMTE4NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1727132528134-4e447d37d074?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxNaWNyb3NvZnQlMjBTdXJmYWNlJTIwTGFwdG9wJTIwNXxlbnwwfHx8fDE3NTcwMTE4NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1643900074574-8295e3f0af5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxNaWNyb3NvZnQlMjBTdXJmYWNlJTIwTGFwdG9wJTIwNXxlbnwwfHx8fDE3NTcwMTE4NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1648747640271-e0270e2dac1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxNaWNyb3NvZnQlMjBTdXJmYWNlJTIwTGFwdG9wJTIwNXxlbnwwfHx8fDE3NTcwMTE4NTd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Razer Blade 15": [
+            "https://images.unsplash.com/photo-1682981849415-3744cbe93d32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxSYXplciUyMEJsYWRlJTIwMTV8ZW58MHx8fHwxNzU3MDExODU4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1678184095566-3980f43c41eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxSYXplciUyMEJsYWRlJTIwMTV8ZW58MHx8fHwxNzU3MDExODU4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1645338912212-3c9d0b4a63ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxSYXplciUyMEJsYWRlJTIwMTV8ZW58MHx8fHwxNzU3MDExODU4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1627065291142-3c0b70b5aaf8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxSYXplciUyMEJsYWRlJTIwMTV8ZW58MHx8fHwxNzU3MDExODU4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1656040241276-2c75554faff9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxSYXplciUyMEJsYWRlJTIwMTV8ZW58MHx8fHwxNzU3MDExODU4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Framework Laptop 13": [
+            "https://images.unsplash.com/photo-1620233389768-4eafd182841a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxGcmFtZXdvcmslMjBMYXB0b3AlMjAxM3xlbnwwfHx8fDE3NTcwMTE4NTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1653976499575-6aacb2644727?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxGcmFtZXdvcmslMjBMYXB0b3AlMjAxM3xlbnwwfHx8fDE3NTcwMTE4NTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1619532550465-ad4dc9bd680a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxGcmFtZXdvcmslMjBMYXB0b3AlMjAxM3xlbnwwfHx8fDE3NTcwMTE4NTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1620233383573-b51d099bb075?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxGcmFtZXdvcmslMjBMYXB0b3AlMjAxM3xlbnwwfHx8fDE3NTcwMTE4NTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1607603289612-71ae134aa577?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxGcmFtZXdvcmslMjBMYXB0b3AlMjAxM3xlbnwwfHx8fDE3NTcwMTE4NTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ]
+    },
+    "Headphones": {
+        "Sony WH-1000XM5": [
+            "https://images.unsplash.com/photo-1755719401938-35c1b24f6d15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxTb255JTIwV0gtMTAwMFhNNXxlbnwwfHx8fDE3NTcwMTE4NTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1755719401908-8612266b10c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxTb255JTIwV0gtMTAwMFhNNXxlbnwwfHx8fDE3NTcwMTE4NTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1755719401541-d78b9bc9b514?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxTb255JTIwV0gtMTAwMFhNNXxlbnwwfHx8fDE3NTcwMTE4NTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1755719401620-25bce1b8a7a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxTb255JTIwV0gtMTAwMFhNNXxlbnwwfHx8fDE3NTcwMTE4NTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1633434304749-856d9afd0853?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxTb255JTIwV0gtMTAwMFhNNXxlbnwwfHx8fDE3NTcwMTE4NTl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Bose QuietComfort Ultra": [
+            "https://images.unsplash.com/photo-1567593179124-7835e19fe1e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxCb3NlJTIwUXVpZXRDb21mb3J0JTIwVWx0cmF8ZW58MHx8fHwxNzU3MDExODYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1627480005155-2232ac835ff2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxCb3NlJTIwUXVpZXRDb21mb3J0JTIwVWx0cmF8ZW58MHx8fHwxNzU3MDExODYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1595026798669-bb225b942e8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxCb3NlJTIwUXVpZXRDb21mb3J0JTIwVWx0cmF8ZW58MHx8fHwxNzU3MDExODYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1739764577422-20863c027cb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxCb3NlJTIwUXVpZXRDb21mb3J0JTIwVWx0cmF8ZW58MHx8fHwxNzU3MDExODYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1609043457779-5026bece8290?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxCb3NlJTIwUXVpZXRDb21mb3J0JTIwVWx0cmF8ZW58MHx8fHwxNzU3MDExODYxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Apple AirPods Pro 2": [
+            "https://images.unsplash.com/photo-1593716686443-b821ac2a45c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxBcHBsZSUyMEFpclBvZHMlMjBQcm8lMjAyfGVufDB8fHx8MTc1NzAxMTg2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1723862405741-ea951a530e30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxBcHBsZSUyMEFpclBvZHMlMjBQcm8lMjAyfGVufDB8fHx8MTc1NzAxMTg2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1623788728910-23180a99871d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxBcHBsZSUyMEFpclBvZHMlMjBQcm8lMjAyfGVufDB8fHx8MTc1NzAxMTg2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1610438235354-a6ae5528385c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxBcHBsZSUyMEFpclBvZHMlMjBQcm8lMjAyfGVufDB8fHx8MTc1NzAxMTg2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1623788736363-55d36908ab21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxBcHBsZSUyMEFpclBvZHMlMjBQcm8lMjAyfGVufDB8fHx8MTc1NzAxMTg2M3ww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Sennheiser Momentum 4": [
+            "https://images.unsplash.com/photo-1648320682118-fe73e4909efd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxTZW5uaGVpc2VyJTIwTW9tZW50dW0lMjA0fGVufDB8fHx8MTc1NzAxMTg2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1613379717212-0e243ef8abf7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxTZW5uaGVpc2VyJTIwTW9tZW50dW0lMjA0fGVufDB8fHx8MTc1NzAxMTg2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1734607528245-12a4abf41f75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxTZW5uaGVpc2VyJTIwTW9tZW50dW0lMjA0fGVufDB8fHx8MTc1NzAxMTg2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1622540632978-2e9f3a882c76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxTZW5uaGVpc2VyJTIwTW9tZW50dW0lMjA0fGVufDB8fHx8MTc1NzAxMTg2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1716208085341-ba8eef2143eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxTZW5uaGVpc2VyJTIwTW9tZW50dW0lMjA0fGVufDB8fHx8MTc1NzAxMTg2M3ww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "AirPods Max": [
+            "https://images.unsplash.com/photo-1628329567705-f8f7150c3cff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxBaXJQb2RzJTIwTWF4fGVufDB8fHx8MTc1NzAxMTg2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1612116454817-2b0841e30eaf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxBaXJQb2RzJTIwTWF4fGVufDB8fHx8MTc1NzAxMTg2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1625245488459-ee9051a7030f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxBaXJQb2RzJTIwTWF4fGVufDB8fHx8MTc1NzAxMTg2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1655628143563-a4b1c60de33d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxBaXJQb2RzJTIwTWF4fGVufDB8fHx8MTc1NzAxMTg2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1609081219090-a6d81d3085bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxBaXJQb2RzJTIwTWF4fGVufDB8fHx8MTc1NzAxMTg2NHww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Sennheiser HD 660S2": [
+            "https://images.unsplash.com/photo-1619590530232-da98a822baa5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxTZW5uaGVpc2VyJTIwSEQlMjA2NjBTMnxlbnwwfHx8fDE3NTcwMTE4NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1693993367105-d2c37d9b60ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxTZW5uaGVpc2VyJTIwSEQlMjA2NjBTMnxlbnwwfHx8fDE3NTcwMTE4NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1692731974074-03e7ef257a79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxTZW5uaGVpc2VyJTIwSEQlMjA2NjBTMnxlbnwwfHx8fDE3NTcwMTE4NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1643136108890-c079a7cd08cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxTZW5uaGVpc2VyJTIwSEQlMjA2NjBTMnxlbnwwfHx8fDE3NTcwMTE4NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1577722421736-b5578e92414d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxTZW5uaGVpc2VyJTIwSEQlMjA2NjBTMnxlbnwwfHx8fDE3NTcwMTE4NjV8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ]
+    },
+    "TVs & Displays": {
+        "Samsung S95D OLED TV": [
+            "https://images.unsplash.com/photo-1692731974074-03e7ef257a79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxTYW1zdW5nJTIwUzk1RCUyME9MRUQlMjBUVnxlbnwwfHx8fDE3NTcwMTE4NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1725003653601-8b131b0e93b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxTYW1zdW5nJTIwUzk1RCUyME9MRUQlMjBUVnxlbnwwfHx8fDE3NTcwMTE4NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1733080874423-64ced4d2060d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxTYW1zdW5nJTIwUzk1RCUyME9MRUQlMjBUVnxlbnwwfHx8fDE3NTcwMTE4NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1756625080819-ab13fb43f37f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxTYW1zdW5nJTIwUzk1RCUyME9MRUQlMjBUVnxlbnwwfHx8fDE3NTcwMTE4NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1688457287075-5edfaf28a480?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxTYW1zdW5nJTIwUzk1RCUyME9MRUQlMjBUVnxlbnwwfHx8fDE3NTcwMTE4NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "LG C4 OLED TV": [
+            "https://images.unsplash.com/photo-1692731974074-03e7ef257a79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxMRyUyMEM0JTIwT0xFRCUyMFRWfGVufDB8fHx8MTc1NzAxMTg2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1585666638719-56ca4993579b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxMRyUyMEM0JTIwT0xFRCUyMFRWfGVufDB8fHx8MTc1NzAxMTg2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1701318134632-7cda18e7c487?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxMRyUyMEM0JTIwT0xFRCUyMFRWfGVufDB8fHx8MTc1NzAxMTg2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1582072291448-5db861a71699?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxMRyUyMEM0JTIwT0xFRCUyMFRWfGVufDB8fHx8MTc1NzAxMTg2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1592222376988-92af20d4d06c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxMRyUyMEM0JTIwT0xFRCUyMFRWfGVufDB8fHx8MTc1NzAxMTg2OHww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Sony A95L QD-OLED TV": [
+            "https://images.unsplash.com/photo-1631056292589-454b9b800aaf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxTb255JTIwQTk1TCUyMFFELU9MRUQlMjBUVnxlbnwwfHx8fDE3NTcwMTE4Njl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1551967410-858578135b4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxTb255JTIwQTk1TCUyMFFELU9MRUQlMjBUVnxlbnwwfHx8fDE3NTcwMTE4Njl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1680701572796-b8cc1143b97a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxTb255JTIwQTk1TCUyMFFELU9MRUQlMjBUVnxlbnwwfHx8fDE3NTcwMTE4Njl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1662948261149-3f0a0ab0181b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxTb255JTIwQTk1TCUyMFFELU9MRUQlMjBUVnxlbnwwfHx8fDE3NTcwMTE4Njl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1672437125932-5daf247e4ad8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxTb255JTIwQTk1TCUyMFFELU9MRUQlMjBUVnxlbnwwfHx8fDE3NTcwMTE4Njl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Dell UltraSharp U2723QE Monitor": [
+            "https://images.unsplash.com/photo-1642783327704-2500e96fe3d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxEZWxsJTIwVWx0cmFTaGFycCUyMFUyNzIzUUUlMjBNb25pdG9yfGVufDB8fHx8MTc1NzAxMTg3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1589523322065-40163a8dd001?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxEZWxsJTIwVWx0cmFTaGFycCUyMFUyNzIzUUUlMjBNb25pdG9yfGVufDB8fHx8MTc1NzAxMTg3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1666771410333-3457e9603dd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxEZWxsJTIwVWx0cmFTaGFycCUyMFUyNzIzUUUlMjBNb25pdG9yfGVufDB8fHx8MTc1NzAxMTg3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1552581318-fd170382a23a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxEZWxsJTIwVWx0cmFTaGFycCUyMFUyNzIzUUUlMjBNb25pdG9yfGVufDB8fHx8MTc1NzAxMTg3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1666771410255-158c17cf8ff8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxEZWxsJTIwVWx0cmFTaGFycCUyMFUyNzIzUUUlMjBNb25pdG9yfGVufDB8fHx8MTc1NzAxMTg3MHww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Apple Studio Display": [
+            "https://images.unsplash.com/photo-1648877424884-121ea2ccf22a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxBcHBsZSUyMFN0dWRpbyUyMERpc3BsYXl8ZW58MHx8fHwxNzU3MDExODcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1676567463951-45886b57a77f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxBcHBsZSUyMFN0dWRpbyUyMERpc3BsYXl8ZW58MHx8fHwxNzU3MDExODcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1676567463972-887f76e1fb72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxBcHBsZSUyMFN0dWRpbyUyMERpc3BsYXl8ZW58MHx8fHwxNzU3MDExODcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1676567464000-f44780610545?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxBcHBsZSUyMFN0dWRpbyUyMERpc3BsYXl8ZW58MHx8fHwxNzU3MDExODcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1676567463935-694e6462f081?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxBcHBsZSUyMFN0dWRpbyUyMERpc3BsYXl8ZW58MHx8fHwxNzU3MDExODcxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Samsung Odyssey G9 Monitor": [
+            "https://images.unsplash.com/photo-1725003653601-8b131b0e93b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxTYW1zdW5nJTIwT2R5c3NleSUyMEc5JTIwTW9uaXRvcnxlbnwwfHx8fDE3NTcwMTE4NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1756836857604-6888b1ff6a1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxTYW1zdW5nJTIwT2R5c3NleSUyMEc5JTIwTW9uaXRvcnxlbnwwfHx8fDE3NTcwMTE4NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1553427054-3cf4c0712aa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxTYW1zdW5nJTIwT2R5c3NleSUyMEc5JTIwTW9uaXRvcnxlbnwwfHx8fDE3NTcwMTE4NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1572985919466-6d00864965c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxTYW1zdW5nJTIwT2R5c3NleSUyMEc5JTIwTW9uaXRvcnxlbnwwfHx8fDE3NTcwMTE4NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1693943710014-4f177c246ddb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxTYW1zdW5nJTIwT2R5c3NleSUyMEc5JTIwTW9uaXRvcnxlbnwwfHx8fDE3NTcwMTE4NzF8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ]
+    },
+    "Peripherals": {
+        "Logitech MX Master 3S Mouse": [
+            "https://images.unsplash.com/photo-1739742473235-34a7bd9b8f87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxMb2dpdGVjaCUyME1YJTIwTWFzdGVyJTIwM1MlMjBNb3VzZXxlbnwwfHx8fDE3NTcwMTE4NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1739742473186-ae51d5e86f5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxMb2dpdGVjaCUyME1YJTIwTWFzdGVyJTIwM1MlMjBNb3VzZXxlbnwwfHx8fDE3NTcwMTE4NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1671068514669-8134a08ca1a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxMb2dpdGVjaCUyME1YJTIwTWFzdGVyJTIwM1MlMjBNb3VzZXxlbnwwfHx8fDE3NTcwMTE4NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1752421418197-316654990dea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxMb2dpdGVjaCUyME1YJTIwTWFzdGVyJTIwM1MlMjBNb3VzZXxlbnwwfHx8fDE3NTcwMTE4NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1752442534054-ef5b221c39a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxMb2dpdGVjaCUyME1YJTIwTWFzdGVyJTIwM1MlMjBNb3VzZXxlbnwwfHx8fDE3NTcwMTE4NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Razer DeathAdder V3 Pro Mouse": [
+            "https://images.unsplash.com/photo-1625465587185-a2ad0998a14b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxSYXplciUyMERlYXRoQWRkZXIlMjBWMyUyMFBybyUyME1vdXNlfGVufDB8fHx8MTc1NzAxMTg3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1742321623190-2a96cb74957c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxSYXplciUyMERlYXRoQWRkZXIlMjBWMyUyMFBybyUyME1vdXNlfGVufDB8fHx8MTc1NzAxMTg3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1629083255546-92b8587eb116?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxSYXplciUyMERlYXRoQWRkZXIlMjBWMyUyMFBybyUyME1vdXNlfGVufDB8fHx8MTc1NzAxMTg3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1643104444614-292853865f54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxSYXplciUyMERlYXRoQWRkZXIlMjBWMyUyMFBybyUyME1vdXNlfGVufDB8fHx8MTc1NzAxMTg3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1692726418508-e050bace3d21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxSYXplciUyMERlYXRoQWRkZXIlMjBWMyUyMFBybyUyME1vdXNlfGVufDB8fHx8MTc1NzAxMTg3M3ww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Keychron Q1 Pro Keyboard": [
+            "https://images.unsplash.com/photo-1641611895204-ed582ce8b53f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxLZXljaHJvbiUyMFExJTIwUHJvJTIwS2V5Ym9hcmR8ZW58MHx8fHwxNzU3MDExODc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1580577855719-a3e7c1a8d212?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxLZXljaHJvbiUyMFExJTIwUHJvJTIwS2V5Ym9hcmR8ZW58MHx8fHwxNzU3MDExODc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1718241905495-01e4e42c3eef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxLZXljaHJvbiUyMFExJTIwUHJvJTIwS2V5Ym9hcmR8ZW58MHx8fHwxNzU3MDExODc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1528198083909-60c0bf5b0718?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxLZXljaHJvbiUyMFExJTIwUHJvJTIwS2V5Ym9hcmR8ZW58MHx8fHwxNzU3MDExODc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1678962855792-a2bbf7a634db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxLZXljaHJvbiUyMFExJTIwUHJvJTIwS2V5Ym9hcmR8ZW58MHx8fHwxNzU3MDExODc1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "SteelSeries Apex Pro Keyboard": [
+            "https://images.unsplash.com/photo-1669698158680-522e6574c8ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxTdGVlbFNlcmllcyUyMEFwZXglMjBQcm8lMjBLZXlib2FyZHxlbnwwfHx8fDE3NTcwMTE4NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1692930216528-f1fc7e320317?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxTdGVlbFNlcmllcyUyMEFwZXglMjBQcm8lMjBLZXlib2FyZHxlbnwwfHx8fDE3NTcwMTE4NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1649472025564-8de9ee785dc5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxTdGVlbFNlcmllcyUyMEFwZXglMjBQcm8lMjBLZXlib2FyZHxlbnwwfHx8fDE3NTcwMTE4NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1718241905495-01e4e42c3eef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxTdGVlbFNlcmllcyUyMEFwZXglMjBQcm8lMjBLZXlib2FyZHxlbnwwfHx8fDE3NTcwMTE4NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1662830857519-2f9b28e3b4ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxTdGVlbFNlcmllcyUyMEFwZXglMjBQcm8lMjBLZXlib2FyZHxlbnwwfHx8fDE3NTcwMTE4NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Logitech C920 Webcam": [
+            "https://images.unsplash.com/photo-1626581795188-8efb9a00eeec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxMb2dpdGVjaCUyMEM5MjAlMjBXZWJjYW18ZW58MHx8fHwxNzU3MDExODc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1714201623902-22d00e011947?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxMb2dpdGVjaCUyMEM5MjAlMjBXZWJjYW18ZW58MHx8fHwxNzU3MDExODc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1657334628057-8756d3cc1545?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxMb2dpdGVjaCUyMEM5MjAlMjBXZWJjYW18ZW58MHx8fHwxNzU3MDExODc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1614588876378-b2ffa4520c22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxMb2dpdGVjaCUyMEM5MjAlMjBXZWJjYW18ZW58MHx8fHwxNzU3MDExODc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1554936970-ce06538caf54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxMb2dpdGVjaCUyMEM5MjAlMjBXZWJjYW18ZW58MHx8fHwxNzU3MDExODc4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Elgato Stream Deck": [
+            "https://images.unsplash.com/photo-1650938172622-96aa40542f54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxFbGdhdG8lMjBTdHJlYW0lMjBEZWNrfGVufDB8fHx8MTc1NzAxMTg4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1655919004137-159c9a678739?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxFbGdhdG8lMjBTdHJlYW0lMjBEZWNrfGVufDB8fHx8MTc1NzAxMTg4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1538365811192-6c0b58a12daa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxFbGdhdG8lMjBTdHJlYW0lMjBEZWNrfGVufDB8fHx8MTc1NzAxMTg4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1634829036082-a8935ec22a02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxFbGdhdG8lMjBTdHJlYW0lMjBEZWNrfGVufDB8fHx8MTc1NzAxMTg4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1602621121478-64e1be6e8011?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxFbGdhdG8lMjBTdHJlYW0lMjBEZWNrfGVufDB8fHx8MTc1NzAxMTg4MHww&ixlib=rb-4.1.0&q=80&w=1080"
+        ]
+    },
+    "Watches & Wearables": {
+        "Apple Watch Series 9": [
+            "https://images.unsplash.com/photo-1705307543536-06ebcb39bb0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxBcHBsZSUyMFdhdGNoJTIwU2VyaWVzJTIwOXxlbnwwfHx8fDE3NTcwMTE4ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1705307367492-fbaf340d8b72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxBcHBsZSUyMFdhdGNoJTIwU2VyaWVzJTIwOXxlbnwwfHx8fDE3NTcwMTE4ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1707295337276-5be3e4322ac3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxBcHBsZSUyMFdhdGNoJTIwU2VyaWVzJTIwOXxlbnwwfHx8fDE3NTcwMTE4ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1626793167849-9d7c65d0932d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxBcHBsZSUyMFdhdGNoJTIwU2VyaWVzJTIwOXxlbnwwfHx8fDE3NTcwMTE4ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1727113558310-cdee231d5384?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxBcHBsZSUyMFdhdGNoJTIwU2VyaWVzJTIwOXxlbnwwfHx8fDE3NTcwMTE4ODF8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Samsung Galaxy Watch 6": [
+            "https://images.unsplash.com/photo-1720104241967-713d80bcbaff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxTYW1zdW5nJTIwR2FsYXh5JTIwV2F0Y2glMjA2fGVufDB8fHx8MTc1NzAxMTg4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1722156163505-7d3d5d5dd85a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxTYW1zdW5nJTIwR2FsYXh5JTIwV2F0Y2glMjA2fGVufDB8fHx8MTc1NzAxMTg4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1601283269280-df0b0cb47da3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxTYW1zdW5nJTIwR2FsYXh5JTIwV2F0Y2glMjA2fGVufDB8fHx8MTc1NzAxMTg4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1602174528421-6c3e5b00e565?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxTYW1zdW5nJTIwR2FsYXh5JTIwV2F0Y2glMjA2fGVufDB8fHx8MTc1NzAxMTg4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1603479513261-e3b36c8b958c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxTYW1zdW5nJTIwR2FsYXh5JTIwV2F0Y2glMjA2fGVufDB8fHx8MTc1NzAxMTg4Mnww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Garmin Fenix 7": [
+            "https://images.unsplash.com/photo-1682778964821-76d9840a19e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxHYXJtaW4lMjBGZW5peCUyMDd8ZW58MHx8fHwxNzU3MDExODgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1723118641151-6a03a8f02774?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxHYXJtaW4lMjBGZW5peCUyMDd8ZW58MHx8fHwxNzU3MDExODgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1660490987070-b7cc89e41b38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxHYXJtaW4lMjBGZW5peCUyMDd8ZW58MHx8fHwxNzU3MDExODgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1665441644195-25d7eb2ba212?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxHYXJtaW4lMjBGZW5peCUyMDd8ZW58MHx8fHwxNzU3MDExODgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1752350434997-8f6366faa0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxHYXJtaW4lMjBGZW5peCUyMDd8ZW58MHx8fHwxNzU3MDExODgzfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Fitbit Charge 6": [
+            "https://images.unsplash.com/photo-1611270629569-948d94ca915a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxGaXRiaXQlMjBDaGFyZ2UlMjA2fGVufDB8fHx8MTc1NzAxMTg4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1689994489436-c39b23a2a6ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxGaXRiaXQlMjBDaGFyZ2UlMjA2fGVufDB8fHx8MTc1NzAxMTg4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1582486980856-f485b61a38bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxGaXRiaXQlMjBDaGFyZ2UlMjA2fGVufDB8fHx8MTc1NzAxMTg4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1638953479969-d89a536026ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxGaXRiaXQlMjBDaGFyZ2UlMjA2fGVufDB8fHx8MTc1NzAxMTg4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1654781394553-3cd84d3aae35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxGaXRiaXQlMjBDaGFyZ2UlMjA2fGVufDB8fHx8MTc1NzAxMTg4M3ww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Google Pixel Watch 2": [
+            "https://images.unsplash.com/photo-1530508943348-b8f606ea2bf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxHb29nbGUlMjBQaXhlbCUyMFdhdGNoJTIwMnxlbnwwfHx8fDE3NTcwMTE4ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1565443492615-7e3d2324d925?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxHb29nbGUlMjBQaXhlbCUyMFdhdGNoJTIwMnxlbnwwfHx8fDE3NTcwMTE4ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1564216329574-c839d4eedb1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxHb29nbGUlMjBQaXhlbCUyMFdhdGNoJTIwMnxlbnwwfHx8fDE3NTcwMTE4ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1564766980795-9387d16f5dd9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxHb29nbGUlMjBQaXhlbCUyMFdhdGNoJTIwMnxlbnwwfHx8fDE3NTcwMTE4ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1580807915738-b08f92978715?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxHb29nbGUlMjBQaXhlbCUyMFdhdGNoJTIwMnxlbnwwfHx8fDE3NTcwMTE4ODV8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Oura Ring Gen3": [
+            "https://images.unsplash.com/photo-1595538934869-503c9448981b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxPdXJhJTIwUmluZyUyMEdlbjN8ZW58MHx8fHwxNzU3MDExODg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1732791547509-f257f062eeb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxPdXJhJTIwUmluZyUyMEdlbjN8ZW58MHx8fHwxNzU3MDExODg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1642575904332-057e9bdd6a50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxPdXJhJTIwUmluZyUyMEdlbjN8ZW58MHx8fHwxNzU3MDExODg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1642575904226-e43265872da4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxPdXJhJTIwUmluZyUyMEdlbjN8ZW58MHx8fHwxNzU3MDExODg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1681660910801-f6ff678f700a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxPdXJhJTIwUmluZyUyMEdlbjN8ZW58MHx8fHwxNzU3MDExODg2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ]
+    },
+    "Cameras": {
+        "GoPro HERO12 Black": [
+            "https://images.unsplash.com/photo-1590308272905-e1a8b1555915?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxHb1BybyUyMEhFUk8xMiUyMEJsYWNrfGVufDB8fHx8MTc1NzAxMTg4N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1592917907180-4da58801827f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxHb1BybyUyMEhFUk8xMiUyMEJsYWNrfGVufDB8fHx8MTc1NzAxMTg4N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1738054040631-8277a791d717?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxHb1BybyUyMEhFUk8xMiUyMEJsYWNrfGVufDB8fHx8MTc1NzAxMTg4N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1666511949491-5080ec4d6c74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxHb1BybyUyMEhFUk8xMiUyMEJsYWNrfGVufDB8fHx8MTc1NzAxMTg4N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1621282707464-af9e8d50c4b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxHb1BybyUyMEhFUk8xMiUyMEJsYWNrfGVufDB8fHx8MTc1NzAxMTg4N3ww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Sony Alpha a7 IV": [
+            "https://images.unsplash.com/photo-1615478648132-6b0bb0dce812?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxTb255JTIwQWxwaGElMjBhNyUyMElWfGVufDB8fHx8MTc1NzAxMTg4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1647920564028-5756c7af4bd1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxTb255JTIwQWxwaGElMjBhNyUyMElWfGVufDB8fHx8MTc1NzAxMTg4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1697558992401-4eb8d95e9b0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxTb255JTIwQWxwaGElMjBhNyUyMElWfGVufDB8fHx8MTc1NzAxMTg4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1691119808060-528c3c19e92e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxTb255JTIwQWxwaGElMjBhNyUyMElWfGVufDB8fHx8MTc1NzAxMTg4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1691922304946-b616acad4c9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxTb255JTIwQWxwaGElMjBhNyUyMElWfGVufDB8fHx8MTc1NzAxMTg4OHww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Canon EOS R6 Mark II": [
+            "https://images.unsplash.com/photo-1720729865238-f131c4b86f18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxDYW5vbiUyMEVPUyUyMFI2JTIwTWFyayUyMElJfGVufDB8fHx8MTc1NzAxMTg5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1716497046164-c5997998b7d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxDYW5vbiUyMEVPUyUyMFI2JTIwTWFyayUyMElJfGVufDB8fHx8MTc1NzAxMTg5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1716497046152-94d698c4ec9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxDYW5vbiUyMEVPUyUyMFI2JTIwTWFyayUyMElJfGVufDB8fHx8MTc1NzAxMTg5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1716497046185-878c10e4c9d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxDYW5vbiUyMEVPUyUyMFI2JTIwTWFyayUyMElJfGVufDB8fHx8MTc1NzAxMTg5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1671116565263-0b77b3783bed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxDYW5vbiUyMEVPUyUyMFI2JTIwTWFyayUyMElJfGVufDB8fHx8MTc1NzAxMTg5MHww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Fujifilm X-T5": [],
+        "Nikon Z8": [],
+        "DJI Mini 4 Pro Drone": []
+    },
+    "Kitchen Appliances": {
+        "Instant Pot Duo": [],
+        "Ninja Foodi Air Fryer": [],
+        "Vitamix 5200 Blender": [],
+        "Breville Barista Express": [],
+        "KitchenAid Stand Mixer": [
+            "https://images.unsplash.com/photo-1547091267-6b2be403a763?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxLaXRjaGVuQWlkJTIwU3RhbmQlMjBNaXhlcnxlbnwwfHx8fDE3NTcwMTI0MDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1571515474834-bac473f200fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxLaXRjaGVuQWlkJTIwU3RhbmQlMjBNaXhlcnxlbnwwfHx8fDE3NTcwMTI0MDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1722824742919-73a0405c4abe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxLaXRjaGVuQWlkJTIwU3RhbmQlMjBNaXhlcnxlbnwwfHx8fDE3NTcwMTI0MDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1750534232315-7c0669506201?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxLaXRjaGVuQWlkJTIwU3RhbmQlMjBNaXhlcnxlbnwwfHx8fDE3NTcwMTI0MDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1674985140588-d40f26c575df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxLaXRjaGVuQWlkJTIwU3RhbmQlMjBNaXhlcnxlbnwwfHx8fDE3NTcwMTI0MDh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Breville Smart Oven Air Fryer": [
+            "https://images.unsplash.com/photo-1720169662562-e977daf6c83f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxCcmV2aWxsZSUyMFNtYXJ0JTIwT3ZlbiUyMEFpciUyMEZyeWVyfGVufDB8fHx8MTc1NzAxMjQxMHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1691371388813-c6ed1223042f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxCcmV2aWxsZSUyMFNtYXJ0JTIwT3ZlbiUyMEFpciUyMEZyeWVyfGVufDB8fHx8MTc1NzAxMjQxMHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1650016713452-e5789a897d5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxCcmV2aWxsZSUyMFNtYXJ0JTIwT3ZlbiUyMEFpciUyMEZyeWVyfGVufDB8fHx8MTc1NzAxMjQxMHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1655354438845-561bc349a1a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxCcmV2aWxsZSUyMFNtYXJ0JTIwT3ZlbiUyMEFpciUyMEZyeWVyfGVufDB8fHx8MTc1NzAxMjQxMHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1659777941859-18d9dd1f01f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxCcmV2aWxsZSUyMFNtYXJ0JTIwT3ZlbiUyMEFpciUyMEZyeWVyfGVufDB8fHx8MTc1NzAxMjQxMHww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Nespresso VertuoPlus": [
+            "https://images.unsplash.com/photo-1610920051820-cb947e1c75da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxOZXNwcmVzc28lMjBWZXJ0dW9QbHVzfGVufDB8fHx8MTc1NzAxMjQxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1632054010678-7f2e5a1a7355?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxOZXNwcmVzc28lMjBWZXJ0dW9QbHVzfGVufDB8fHx8MTc1NzAxMjQxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1610071233961-0cc2426f402d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxOZXNwcmVzc28lMjBWZXJ0dW9QbHVzfGVufDB8fHx8MTc1NzAxMjQxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1668449026838-af7d1f6b3b3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxOZXNwcmVzc28lMjBWZXJ0dW9QbHVzfGVufDB8fHx8MTc1NzAxMjQxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1689164255885-d172a4f5fc4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxOZXNwcmVzc28lMjBWZXJ0dW9QbHVzfGVufDB8fHx8MTc1NzAxMjQxM3ww&ixlib=rb-4.1.0&q=80&w=1080"
+        ]
+    },
+    "Home Goods": {
+        "Dyson V15 Detect Vacuum": [
+            "https://images.unsplash.com/photo-1648808677837-f7bdee5d8611?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxEeXNvbiUyMFYxNSUyMERldGVjdCUyMFZhY3V1bXxlbnwwfHx8fDE3NTcwMTI0MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1538944102549-c48008452b19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxEeXNvbiUyMFYxNSUyMERldGVjdCUyMFZhY3V1bXxlbnwwfHx8fDE3NTcwMTI0MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1687618084668-3845d752d244?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxEeXNvbiUyMFYxNSUyMERldGVjdCUyMFZhY3V1bXxlbnwwfHx8fDE3NTcwMTI0MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1681965823525-b684fb97e9fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxEeXNvbiUyMFYxNSUyMERldGVjdCUyMFZhY3V1bXxlbnwwfHx8fDE3NTcwMTI0MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1691828715713-4f3eaf16f857?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxEeXNvbiUyMFYxNSUyMERldGVjdCUyMFZhY3V1bXxlbnwwfHx8fDE3NTcwMTI0MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "iRobot Roomba j7+": [
+            "https://images.unsplash.com/photo-1612143051354-d412e64c9fbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxpUm9ib3QlMjBSb29tYmElMjBqNyUyQnxlbnwwfHx8fDE3NTcwMTI0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1601523266240-897ed285851d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxpUm9ib3QlMjBSb29tYmElMjBqNyUyQnxlbnwwfHx8fDE3NTcwMTI0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1675627452873-41eddc681439?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxpUm9ib3QlMjBSb29tYmElMjBqNyUyQnxlbnwwfHx8fDE3NTcwMTI0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1550275803-d7f50d792f89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxpUm9ib3QlMjBSb29tYmElMjBqNyUyQnxlbnwwfHx8fDE3NTcwMTI0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1739879987183-a7ba4be8314b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxpUm9ib3QlMjBSb29tYmElMjBqNyUyQnxlbnwwfHx8fDE3NTcwMTI0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Le Creuset Dutch Oven": [
+            "https://images.unsplash.com/photo-1695088224596-11649459b191?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxMZSUyMENyZXVzZXQlMjBEdXRjaCUyME92ZW58ZW58MHx8fHwxNzU3MDEyNDIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1695088224170-8d8670a19a16?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxMZSUyMENyZXVzZXQlMjBEdXRjaCUyME92ZW58ZW58MHx8fHwxNzU3MDEyNDIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1729462043508-3fcf25f4bc0e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxMZSUyMENyZXVzZXQlMjBEdXRjaCUyME92ZW58ZW58MHx8fHwxNzU3MDEyNDIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1692358344035-08396c2b429c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxMZSUyMENyZXVzZXQlMjBEdXRjaCUyME92ZW58ZW58MHx8fHwxNzU3MDEyNDIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1626108962941-61b46dd705a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxMZSUyMENyZXVzZXQlMjBEdXRjaCUyME92ZW58ZW58MHx8fHwxNzU3MDEyNDIxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "All-Clad D3 Stainless Steel Fry Pan": [
+            "https://images.unsplash.com/photo-1675081503711-ff3059360c70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxBbGwtQ2xhZCUyMEQzJTIwU3RhaW5sZXNzJTIwU3RlZWwlMjBGcnklMjBQYW58ZW58MHx8fHwxNzU3MDEyNDIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1745710489337-47d1c0aa6931?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxBbGwtQ2xhZCUyMEQzJTIwU3RhaW5sZXNzJTIwU3RlZWwlMjBGcnklMjBQYW58ZW58MHx8fHwxNzU3MDEyNDIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1711610378106-e06a37bac30c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxBbGwtQ2xhZCUyMEQzJTIwU3RhaW5sZXNzJTIwU3RlZWwlMjBGcnklMjBQYW58ZW58MHx8fHwxNzU3MDEyNDIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1706263484944-1b9910d14540?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxBbGwtQ2xhZCUyMEQzJTIwU3RhaW5sZXNzJTIwU3RlZWwlMjBGcnklMjBQYW58ZW58MHx8fHwxNzU3MDEyNDIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1693038603562-bb6191269ecc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxBbGwtQ2xhZCUyMEQzJTIwU3RhaW5sZXNzJTIwU3RlZWwlMjBGcnklMjBQYW58ZW58MHx8fHwxNzU3MDEyNDIzfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Casper Original Mattress": [
+            "https://images.unsplash.com/photo-1691703028663-c5ff8cbb07c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxDYXNwZXIlMjBPcmlnaW5hbCUyME1hdHRyZXNzfGVufDB8fHx8MTc1NzAxMjQyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1693592398532-cb18d3b01d07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxDYXNwZXIlMjBPcmlnaW5hbCUyME1hdHRyZXNzfGVufDB8fHx8MTc1NzAxMjQyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1691703011149-5fc5a062319d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxDYXNwZXIlMjBPcmlnaW5hbCUyME1hdHRyZXNzfGVufDB8fHx8MTc1NzAxMjQyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1585801295748-9297b9b587b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxDYXNwZXIlMjBPcmlnaW5hbCUyME1hdHRyZXNzfGVufDB8fHx8MTc1NzAxMjQyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1572596116404-98f227c01ac1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxDYXNwZXIlMjBPcmlnaW5hbCUyME1hdHRyZXNzfGVufDB8fHx8MTc1NzAxMjQyNnww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Molekule Air Mini+": [
+            "https://images.unsplash.com/photo-1655890954739-c5782b4a8211?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxNb2xla3VsZSUyMEFpciUyME1pbmklMkJ8ZW58MHx8fHwxNzU3MDEyNDI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1655891709782-15c1303a2a25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxNb2xla3VsZSUyMEFpciUyME1pbmklMkJ8ZW58MHx8fHwxNzU3MDEyNDI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1655890954753-f9ec41ce58ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxNb2xla3VsZSUyMEFpciUyME1pbmklMkJ8ZW58MHx8fHwxNzU3MDEyNDI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1746420096722-650ce657a317?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxNb2xla3VsZSUyMEFpciUyME1pbmklMkJ8ZW58MHx8fHwxNzU3MDEyNDI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1657244358898-d9e110504fd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxNb2xla3VsZSUyMEFpciUyME1pbmklMkJ8ZW58MHx8fHwxNzU3MDEyNDI4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ]
+    },
+    "Outdoor & Sports": {
+        "Weber Spirit II E-310 Grill": [
+            "https://images.unsplash.com/photo-1666396540392-9798debd585e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxXZWJlciUyMFNwaXJpdCUyMElJJTIwRS0zMTAlMjBHcmlsbHxlbnwwfHx8fDE3NTcwMTI0MzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1752367428176-2b0cd6cc11b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxXZWJlciUyMFNwaXJpdCUyMElJJTIwRS0zMTAlMjBHcmlsbHxlbnwwfHx8fDE3NTcwMTI0MzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1738066074975-8cec9a319232?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxXZWJlciUyMFNwaXJpdCUyMElJJTIwRS0zMTAlMjBHcmlsbHxlbnwwfHx8fDE3NTcwMTI0MzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1696324010456-995fe17c42c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxXZWJlciUyMFNwaXJpdCUyMElJJTIwRS0zMTAlMjBHcmlsbHxlbnwwfHx8fDE3NTcwMTI0MzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1727396560614-8ff7558bfb5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxXZWJlciUyMFNwaXJpdCUyMElJJTIwRS0zMTAlMjBHcmlsbHxlbnwwfHx8fDE3NTcwMTI0MzF8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Stanley Quencher Tumbler": [
+            "https://images.unsplash.com/photo-1677098764389-b09f19857454?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxTdGFubGV5JTIwUXVlbmNoZXIlMjBUdW1ibGVyfGVufDB8fHx8MTc1NzAxMjQzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1640949905468-f7f8d82f8dc9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxTdGFubGV5JTIwUXVlbmNoZXIlMjBUdW1ibGVyfGVufDB8fHx8MTc1NzAxMjQzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1704554286195-a5d5e66765f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxTdGFubGV5JTIwUXVlbmNoZXIlMjBUdW1ibGVyfGVufDB8fHx8MTc1NzAxMjQzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1614610658532-25afc27b88c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxTdGFubGV5JTIwUXVlbmNoZXIlMjBUdW1ibGVyfGVufDB8fHx8MTc1NzAxMjQzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1663499212975-8e30b6ee04d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxTdGFubGV5JTIwUXVlbmNoZXIlMjBUdW1ibGVyfGVufDB8fHx8MTc1NzAxMjQzNHww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Yeti Rambler Tumbler": [
+            "https://images.unsplash.com/photo-1677098764389-b09f19857454?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxZZXRpJTIwUmFtYmxlciUyMFR1bWJsZXJ8ZW58MHx8fHwxNzU3MDEyNDM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1604140193916-187755174ecf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxZZXRpJTIwUmFtYmxlciUyMFR1bWJsZXJ8ZW58MHx8fHwxNzU3MDEyNDM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1526535218036-1686e8921761?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxZZXRpJTIwUmFtYmxlciUyMFR1bWJsZXJ8ZW58MHx8fHwxNzU3MDEyNDM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1675057924731-35d553982962?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxZZXRpJTIwUmFtYmxlciUyMFR1bWJsZXJ8ZW58MHx8fHwxNzU3MDEyNDM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1740903978233-c2090922416d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxZZXRpJTIwUmFtYmxlciUyMFR1bWJsZXJ8ZW58MHx8fHwxNzU3MDEyNDM3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Osprey Atmos AG 65 Backpack": [
+            "https://images.unsplash.com/photo-1549872178-96db16a53ca8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxPc3ByZXklMjBBdG1vcyUyMEFHJTIwNjUlMjBCYWNrcGFja3xlbnwwfHx8fDE3NTcwMTI0Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1592289924034-c423dd2f1c5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxPc3ByZXklMjBBdG1vcyUyMEFHJTIwNjUlMjBCYWNrcGFja3xlbnwwfHx8fDE3NTcwMTI0Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1611153534367-9391ec82d120?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxPc3ByZXklMjBBdG1vcyUyMEFHJTIwNjUlMjBCYWNrcGFja3xlbnwwfHx8fDE3NTcwMTI0Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1564812761548-d2e62622ca5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxPc3ByZXklMjBBdG1vcyUyMEFHJTIwNjUlMjBCYWNrcGFja3xlbnwwfHx8fDE3NTcwMTI0Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1681334922230-17b3910cf3bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxPc3ByZXklMjBBdG1vcyUyMEFHJTIwNjUlMjBCYWNrcGFja3xlbnwwfHx8fDE3NTcwMTI0Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "The North Face Borealis Backpack": [
+            "https://images.unsplash.com/photo-1592289924034-c423dd2f1c5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxUaGUlMjBOb3J0aCUyMEZhY2UlMjBCb3JlYWxpcyUyMEJhY2twYWNrfGVufDB8fHx8MTc1NzAxMjQ0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1675524385151-7750363fe4bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxUaGUlMjBOb3J0aCUyMEZhY2UlMjBCb3JlYWxpcyUyMEJhY2twYWNrfGVufDB8fHx8MTc1NzAxMjQ0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1580087256394-dc596e1c8f4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxUaGUlMjBOb3J0aCUyMEZhY2UlMjBCb3JlYWxpcyUyMEJhY2twYWNrfGVufDB8fHx8MTc1NzAxMjQ0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1551677399-f38a96cd1bc7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxUaGUlMjBOb3J0aCUyMEZhY2UlMjBCb3JlYWxpcyUyMEJhY2twYWNrfGVufDB8fHx8MTc1NzAxMjQ0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1540394285875-f7b4538c4874?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxUaGUlMjBOb3J0aCUyMEZhY2UlMjBCb3JlYWxpcyUyMEJhY2twYWNrfGVufDB8fHx8MTc1NzAxMjQ0MXww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Black Diamond Spot Headlamp": [
+            "https://images.unsplash.com/photo-1527932546749-23bf82dfe97e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxCbGFjayUyMERpYW1vbmQlMjBTcG90JTIwSGVhZGxhbXB8ZW58MHx8fHwxNzU3MDEyNDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1704226818064-54d41ff2277b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxCbGFjayUyMERpYW1vbmQlMjBTcG90JTIwSGVhZGxhbXB8ZW58MHx8fHwxNzU3MDEyNDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1654573117446-1ce6901b4e11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxCbGFjayUyMERpYW1vbmQlMjBTcG90JTIwSGVhZGxhbXB8ZW58MHx8fHwxNzU3MDEyNDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1546956923-f6ba9089ccde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxCbGFjayUyMERpYW1vbmQlMjBTcG90JTIwSGVhZGxhbXB8ZW58MHx8fHwxNzU3MDEyNDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1661546499524-32179efb8a4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxCbGFjayUyMERpYW1vbmQlMjBTcG90JTIwSGVhZGxhbXB8ZW58MHx8fHwxNzU3MDEyNDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ]
+    },
+    "Apparel": {
+        "Patagonia Nano Puff Jacket": [
+            "https://images.unsplash.com/photo-1641939647506-0dc2aabad861?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxQYXRhZ29uaWElMjBOYW5vJTIwUHVmZiUyMEphY2tldHxlbnwwfHx8fDE3NTcwMTI0NDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1736310567741-90015c3b5ab6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxQYXRhZ29uaWElMjBOYW5vJTIwUHVmZiUyMEphY2tldHxlbnwwfHx8fDE3NTcwMTI0NDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1707817526505-3a0243d9d0c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxQYXRhZ29uaWElMjBOYW5vJTIwUHVmZiUyMEphY2tldHxlbnwwfHx8fDE3NTcwMTI0NDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1661459479190-fd1cdad5ffd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxQYXRhZ29uaWElMjBOYW5vJTIwUHVmZiUyMEphY2tldHxlbnwwfHx8fDE3NTcwMTI0NDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1630300236870-c9480cfa7856?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxQYXRhZ29uaWElMjBOYW5vJTIwUHVmZiUyMEphY2tldHxlbnwwfHx8fDE3NTcwMTI0NDd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Nike Air Force 1 Shoes": [
+            "https://images.unsplash.com/photo-1626379616459-b2ce1d9decbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxOaWtlJTIwQWlyJTIwRm9yY2UlMjAxJTIwU2hvZXN8ZW58MHx8fHwxNzU3MDEyNDQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1626379625260-7111605463e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxOaWtlJTIwQWlyJTIwRm9yY2UlMjAxJTIwU2hvZXN8ZW58MHx8fHwxNzU3MDEyNDQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1626379637476-f78d1d86b9f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxOaWtlJTIwQWlyJTIwRm9yY2UlMjAxJTIwU2hvZXN8ZW58MHx8fHwxNzU3MDEyNDQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1652456101493-df216b607880?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxOaWtlJTIwQWlyJTIwRm9yY2UlMjAxJTIwU2hvZXN8ZW58MHx8fHwxNzU3MDEyNDQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1696954895451-701b481056d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxOaWtlJTIwQWlyJTIwRm9yY2UlMjAxJTIwU2hvZXN8ZW58MHx8fHwxNzU3MDEyNDQ5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Adidas Ultraboost Shoes": [
+            "https://images.unsplash.com/photo-1546200843-d3a4e1e0103d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxBZGlkYXMlMjBVbHRyYWJvb3N0JTIwU2hvZXN8ZW58MHx8fHwxNzU3MDEyNDUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1606748294390-f6449e6c61ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxBZGlkYXMlMjBVbHRyYWJvb3N0JTIwU2hvZXN8ZW58MHx8fHwxNzU3MDEyNDUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1639572604550-7b958a14eaa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxBZGlkYXMlMjBVbHRyYWJvb3N0JTIwU2hvZXN8ZW58MHx8fHwxNzU3MDEyNDUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1639572600664-28a2a01ce860?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxBZGlkYXMlMjBVbHRyYWJvb3N0JTIwU2hvZXN8ZW58MHx8fHwxNzU3MDEyNDUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1585944672394-4c58a015c1fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxBZGlkYXMlMjBVbHRyYWJvb3N0JTIwU2hvZXN8ZW58MHx8fHwxNzU3MDEyNDUyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Lululemon Align Pant": [
+            "https://images.unsplash.com/photo-1667068564906-c3238fa6c8ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxMdWx1bGVtb24lMjBBbGlnbiUyMFBhbnR8ZW58MHx8fHwxNzU3MDEyNDU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1588527596978-1d05e22c6eea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxMdWx1bGVtb24lMjBBbGlnbiUyMFBhbnR8ZW58MHx8fHwxNzU3MDEyNDU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1734868477300-cd624c12ba1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxMdWx1bGVtb24lMjBBbGlnbiUyMFBhbnR8ZW58MHx8fHwxNzU3MDEyNDU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1523349945440-436fbc94fdde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxMdWx1bGVtb24lMjBBbGlnbiUyMFBhbnR8ZW58MHx8fHwxNzU3MDEyNDU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1732482124547-d25061c8c26b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxMdWx1bGVtb24lMjBBbGlnbiUyMFBhbnR8ZW58MHx8fHwxNzU3MDEyNDU0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Carhartt WIP Active Jacket": [
+            "https://images.unsplash.com/photo-1639976519634-79034eced237?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxDYXJoYXJ0dCUyMFdJUCUyMEFjdGl2ZSUyMEphY2tldHxlbnwwfHx8fDE3NTcwMTI0NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1588011025378-15f4778d2558?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxDYXJoYXJ0dCUyMFdJUCUyMEFjdGl2ZSUyMEphY2tldHxlbnwwfHx8fDE3NTcwMTI0NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1587374835402-bdfdeb2aa0c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxDYXJoYXJ0dCUyMFdJUCUyMEFjdGl2ZSUyMEphY2tldHxlbnwwfHx8fDE3NTcwMTI0NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1493777451738-5c3473d7a26f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxDYXJoYXJ0dCUyMFdJUCUyMEFjdGl2ZSUyMEphY2tldHxlbnwwfHx8fDE3NTcwMTI0NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1587374835842-eb10d35a0725?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxDYXJoYXJ0dCUyMFdJUCUyMEFjdGl2ZSUyMEphY2tldHxlbnwwfHx8fDE3NTcwMTI0NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Blundstone Classic 550 Boots": [
+            "https://images.unsplash.com/photo-1618947085672-1dcb69696c33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxCbHVuZHN0b25lJTIwQ2xhc3NpYyUyMDU1MCUyMEJvb3RzfGVufDB8fHx8MTc1NzAxMjQ1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1725709226193-4eb220c5f490?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxCbHVuZHN0b25lJTIwQ2xhc3NpYyUyMDU1MCUyMEJvb3RzfGVufDB8fHx8MTc1NzAxMjQ1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1629453500216-4b3958b3b816?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxCbHVuZHN0b25lJTIwQ2xhc3NpYyUyMDU1MCUyMEJvb3RzfGVufDB8fHx8MTc1NzAxMjQ1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1614797508720-65d6508d77df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxCbHVuZHN0b25lJTIwQ2xhc3NpYyUyMDU1MCUyMEJvb3RzfGVufDB8fHx8MTc1NzAxMjQ1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1652168933207-a4284e52ca21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxCbHVuZHN0b25lJTIwQ2xhc3NpYyUyMDU1MCUyMEJvb3RzfGVufDB8fHx8MTc1NzAxMjQ1OXww&ixlib=rb-4.1.0&q=80&w=1080"
+        ]
+    },
+    "Gaming": {
+        "Nintendo Switch - OLED": [
+            "https://images.unsplash.com/photo-1737055055057-e60f8c2343e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxOaW50ZW5kbyUyMFN3aXRjaCUyMC0lMjBPTEVEfGVufDB8fHx8MTc1NzAxMjQ2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1737055056934-0d274175b161?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxOaW50ZW5kbyUyMFN3aXRjaCUyMC0lMjBPTEVEfGVufDB8fHx8MTc1NzAxMjQ2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1680007966627-d49ae18dbbae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxOaW50ZW5kbyUyMFN3aXRjaCUyMC0lMjBPTEVEfGVufDB8fHx8MTc1NzAxMjQ2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1715081406782-d605bd2d39a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxOaW50ZW5kbyUyMFN3aXRjaCUyMC0lMjBPTEVEfGVufDB8fHx8MTc1NzAxMjQ2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1715081406790-7f1fbb0f88d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxOaW50ZW5kbyUyMFN3aXRjaCUyMC0lMjBPTEVEfGVufDB8fHx8MTc1NzAxMjQ2MXww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Sony PlayStation 5": [
+            "https://images.unsplash.com/photo-1628566780270-5ac9309b9ab6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxTb255JTIwUGxheVN0YXRpb24lMjA1fGVufDB8fHx8MTc1NzAxMjQ2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxTb255JTIwUGxheVN0YXRpb24lMjA1fGVufDB8fHx8MTc1NzAxMjQ2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1617864064479-f203fc7897c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxTb255JTIwUGxheVN0YXRpb24lMjA1fGVufDB8fHx8MTc1NzAxMjQ2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxTb255JTIwUGxheVN0YXRpb24lMjA1fGVufDB8fHx8MTc1NzAxMjQ2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxTb255JTIwUGxheVN0YXRpb24lMjA1fGVufDB8fHx8MTc1NzAxMjQ2NHww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Microsoft Xbox Series X": [
+            "https://images.unsplash.com/photo-1620815023675-c9ed9927536b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxNaWNyb3NvZnQlMjBYYm94JTIwU2VyaWVzJTIwWHxlbnwwfHx8fDE3NTcwMTI0NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1683823363169-b9d68ad5959c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxNaWNyb3NvZnQlMjBYYm94JTIwU2VyaWVzJTIwWHxlbnwwfHx8fDE3NTcwMTI0NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1683823363200-5857de737eb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxNaWNyb3NvZnQlMjBYYm94JTIwU2VyaWVzJTIwWHxlbnwwfHx8fDE3NTcwMTI0NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1620815023653-f65690227267?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxNaWNyb3NvZnQlMjBYYm94JTIwU2VyaWVzJTIwWHxlbnwwfHx8fDE3NTcwMTI0NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1683823363266-efa8cedec4d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxNaWNyb3NvZnQlMjBYYm94JTIwU2VyaWVzJTIwWHxlbnwwfHx8fDE3NTcwMTI0NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Valve Steam Deck OLED": [
+            "https://images.unsplash.com/photo-1718966324503-031c7130d435?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxWYWx2ZSUyMFN0ZWFtJTIwRGVjayUyME9MRUR8ZW58MHx8fHwxNzU3MDEyNDY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1718966324565-516535c680c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxWYWx2ZSUyMFN0ZWFtJTIwRGVjayUyME9MRUR8ZW58MHx8fHwxNzU3MDEyNDY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1718966324507-beada7cc04e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxWYWx2ZSUyMFN0ZWFtJTIwRGVjayUyME9MRUR8ZW58MHx8fHwxNzU3MDEyNDY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1718966324550-0a312d32c535?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxWYWx2ZSUyMFN0ZWFtJTIwRGVjayUyME9MRUR8ZW58MHx8fHwxNzU3MDEyNDY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1718966324504-79f9539805bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxWYWx2ZSUyMFN0ZWFtJTIwRGVjayUyME9MRUR8ZW58MHx8fHwxNzU3MDEyNDY5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ]
+    },
+    "Tools": {
+        "DeWalt 20V MAX Cordless Drill": [
+            "https://images.unsplash.com/photo-1643216790495-ed36d21b05c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxEZVdhbHQlMjAyMFYlMjBNQVglMjBDb3JkbGVzcyUyMERyaWxsfGVufDB8fHx8MTc1NzAxMjQ3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1564970173067-36ccde5c467b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxEZVdhbHQlMjAyMFYlMjBNQVglMjBDb3JkbGVzcyUyMERyaWxsfGVufDB8fHx8MTc1NzAxMjQ3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1609158791980-00113897f249?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxEZVdhbHQlMjAyMFYlMjBNQVglMjBDb3JkbGVzcyUyMERyaWxsfGVufDB8fHx8MTc1NzAxMjQ3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1606255424608-5f359e628fb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxEZVdhbHQlMjAyMFYlMjBNQVglMjBDb3JkbGVzcyUyMERyaWxsfGVufDB8fHx8MTc1NzAxMjQ3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1651990306880-ca8e929bf4a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxEZVdhbHQlMjAyMFYlMjBNQVglMjBDb3JkbGVzcyUyMERyaWxsfGVufDB8fHx8MTc1NzAxMjQ3MXww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Milwaukee M18 Fuel Impact Driver": [
+            "https://images.unsplash.com/photo-1567922726141-7110b604dd98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxNaWx3YXVrZWUlMjBNMTglMjBGdWVsJTIwSW1wYWN0JTIwRHJpdmVyfGVufDB8fHx8MTc1NzAxMjQ3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1739027505206-544fc8a66860?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxNaWx3YXVrZWUlMjBNMTglMjBGdWVsJTIwSW1wYWN0JTIwRHJpdmVyfGVufDB8fHx8MTc1NzAxMjQ3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1591685625550-c7918f629c46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxNaWx3YXVrZWUlMjBNMTglMjBGdWVsJTIwSW1wYWN0JTIwRHJpdmVyfGVufDB8fHx8MTc1NzAxMjQ3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1745308933884-fcf4e119ed1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxNaWx3YXVrZWUlMjBNMTglMjBGdWVsJTIwSW1wYWN0JTIwRHJpdmVyfGVufDB8fHx8MTc1NzAxMjQ3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1716972899185-702198674d53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxNaWx3YXVrZWUlMjBNMTglMjBGdWVsJTIwSW1wYWN0JTIwRHJpdmVyfGVufDB8fHx8MTc1NzAxMjQ3NHww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Leatherman Wave+": [
+            "https://images.unsplash.com/photo-1650634198225-1dc6925f5db4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxMZWF0aGVybWFuJTIwV2F2ZSUyQnxlbnwwfHx8fDE3NTcwMTI0NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1675594529255-a6f300291df1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxMZWF0aGVybWFuJTIwV2F2ZSUyQnxlbnwwfHx8fDE3NTcwMTI0NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1575222797398-57eba4ab9837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxMZWF0aGVybWFuJTIwV2F2ZSUyQnxlbnwwfHx8fDE3NTcwMTI0NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1590980212806-1484b00b1d27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxMZWF0aGVybWFuJTIwV2F2ZSUyQnxlbnwwfHx8fDE3NTcwMTI0NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1664295737566-dce8bcc4de0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxMZWF0aGVybWFuJTIwV2F2ZSUyQnxlbnwwfHx8fDE3NTcwMTI0NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ]
+    },
+    "Board Games": {
+        "Catan": [
+            "https://images.unsplash.com/photo-1606733847546-db8546099013?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxDYXRhbnxlbnwwfHx8fDE3NTcwMTI0Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1667118398882-fe8fd62665c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxDYXRhbnxlbnwwfHx8fDE3NTcwMTI0Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1667118398887-63cb59112b57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxDYXRhbnxlbnwwfHx8fDE3NTcwMTI0Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1603205932834-1a4946f04be6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxDYXRhbnxlbnwwfHx8fDE3NTcwMTI0Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1640737352994-0c3f512098f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxDYXRhbnxlbnwwfHx8fDE3NTcwMTI0Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Ticket to Ride": [
+            "https://images.unsplash.com/photo-1582921017967-79d1cb6702ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxUaWNrZXQlMjB0byUyMFJpZGV8ZW58MHx8fHwxNzU3MDEyNDgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1711801106897-552707aca0b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxUaWNrZXQlMjB0byUyMFJpZGV8ZW58MHx8fHwxNzU3MDEyNDgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1729709478926-12fa8501c8e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxUaWNrZXQlMjB0byUyMFJpZGV8ZW58MHx8fHwxNzU3MDEyNDgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1702646626296-6866c9d0339a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxUaWNrZXQlMjB0byUyMFJpZGV8ZW58MHx8fHwxNzU3MDEyNDgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1584883611339-fc98203e835c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxUaWNrZXQlMjB0byUyMFJpZGV8ZW58MHx8fHwxNzU3MDEyNDgxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Gloomhaven": [
+            "https://images.unsplash.com/photo-1635921479440-f7a2c10d2d54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxHbG9vbWhhdmVufGVufDB8fHx8MTc1NzAxMjQ4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1635921480215-cefbf57cef53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxHbG9vbWhhdmVufGVufDB8fHx8MTc1NzAxMjQ4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1730390212073-be17ee1ab16a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxHbG9vbWhhdmVufGVufDB8fHx8MTc1NzAxMjQ4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1688592286939-cb633b5b2aa3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxHbG9vbWhhdmVufGVufDB8fHx8MTc1NzAxMjQ4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1561990975-0452b811f097?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxHbG9vbWhhdmVufGVufDB8fHx8MTc1NzAxMjQ4NHww&ixlib=rb-4.1.0&q=80&w=1080"
+        ]
+    },
+    "PC Components": {
+        "NVIDIA GeForce RTX 4090": [
+            "https://images.unsplash.com/photo-1716967318503-05b7064afa41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxOVklESUElMjBHZUZvcmNlJTIwUlRYJTIwNDA5MHxlbnwwfHx8fDE3NTcwMTI0ODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1604361060556-5de6bf0b4163?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxOVklESUElMjBHZUZvcmNlJTIwUlRYJTIwNDA5MHxlbnwwfHx8fDE3NTcwMTI0ODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1654860535404-aa828d051761?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxOVklESUElMjBHZUZvcmNlJTIwUlRYJTIwNDA5MHxlbnwwfHx8fDE3NTcwMTI0ODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1741392076269-471898558663?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxOVklESUElMjBHZUZvcmNlJTIwUlRYJTIwNDA5MHxlbnwwfHx8fDE3NTcwMTI0ODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1615038861968-6d67f701acec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxOVklESUElMjBHZUZvcmNlJTIwUlRYJTIwNDA5MHxlbnwwfHx8fDE3NTcwMTI0ODd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "AMD Ryzen 9 7950X3D": [
+            "https://images.unsplash.com/photo-1675419451608-1340636b785e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxBTUQlMjBSeXplbiUyMDklMjA3OTUwWDNEfGVufDB8fHx8MTc1NzAxMjQ4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1560975520-11a61d453028?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxBTUQlMjBSeXplbiUyMDklMjA3OTUwWDNEfGVufDB8fHx8MTc1NzAxMjQ4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1737911330204-7764a5c79e9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxBTUQlMjBSeXplbiUyMDklMjA3OTUwWDNEfGVufDB8fHx8MTc1NzAxMjQ4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1716962659147-716dd7ead31f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxBTUQlMjBSeXplbiUyMDklMjA3OTUwWDNEfGVufDB8fHx8MTc1NzAxMjQ4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1702588208575-85399c122d08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxBTUQlMjBSeXplbiUyMDklMjA3OTUwWDNEfGVufDB8fHx8MTc1NzAxMjQ4OXww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Samsung 990 Pro SSD": [
+            "https://images.unsplash.com/photo-1696041756125-257354c459a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxTYW1zdW5nJTIwOTkwJTIwUHJvJTIwU1NEfGVufDB8fHx8MTc1NzAxMjQ5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1659436869093-b7cee67ff6b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxTYW1zdW5nJTIwOTkwJTIwUHJvJTIwU1NEfGVufDB8fHx8MTc1NzAxMjQ5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1628557119555-fb3d687cc310?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxTYW1zdW5nJTIwOTkwJTIwUHJvJTIwU1NEfGVufDB8fHx8MTc1NzAxMjQ5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1619590530232-da98a822baa5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxTYW1zdW5nJTIwOTkwJTIwUHJvJTIwU1NEfGVufDB8fHx8MTc1NzAxMjQ5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1587958482280-3b8df53ad9db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxTYW1zdW5nJTIwOTkwJTIwUHJvJTIwU1NEfGVufDB8fHx8MTc1NzAxMjQ5Mnww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Intel Core i9-14900K": [
+            "https://images.unsplash.com/photo-1666430163005-3cd92302a865?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxJbnRlbCUyMENvcmUlMjBpOS0xNDkwMEt8ZW58MHx8fHwxNzU3MDEyNDk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1666430135220-4c54dd235db2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxJbnRlbCUyMENvcmUlMjBpOS0xNDkwMEt8ZW58MHx8fHwxNzU3MDEyNDk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1676315487591-7a1d5c02ecae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxJbnRlbCUyMENvcmUlMjBpOS0xNDkwMEt8ZW58MHx8fHwxNzU3MDEyNDk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1667250572719-d2f419e3da50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxJbnRlbCUyMENvcmUlMjBpOS0xNDkwMEt8ZW58MHx8fHwxNzU3MDEyNDk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1673470609632-394851a7c77e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxJbnRlbCUyMENvcmUlMjBpOS0xNDkwMEt8ZW58MHx8fHwxNzU3MDEyNDk1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Corsair Vengeance DDR5 RAM": [
+            "https://images.unsplash.com/photo-1717154058666-9fd3ec770e2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxDb3JzYWlyJTIwVmVuZ2VhbmNlJTIwRERSNSUyMFJBTXxlbnwwfHx8fDE3NTcwMTI0OTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1657257849888-1eb8d16776a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxDb3JzYWlyJTIwVmVuZ2VhbmNlJTIwRERSNSUyMFJBTXxlbnwwfHx8fDE3NTcwMTI0OTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1654725401364-693d60d26ba9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxDb3JzYWlyJTIwVmVuZ2VhbmNlJTIwRERSNSUyMFJBTXxlbnwwfHx8fDE3NTcwMTI0OTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1755707005787-8fb4aadd9aac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxDb3JzYWlyJTIwVmVuZ2VhbmNlJTIwRERSNSUyMFJBTXxlbnwwfHx8fDE3NTcwMTI0OTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1747547517360-3f33165ce53e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxDb3JzYWlyJTIwVmVuZ2VhbmNlJTIwRERSNSUyMFJBTXxlbnwwfHx8fDE3NTcwMTI0OTd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ]
+    },
+    "Books": {
+        "Dune by Frank Herbert": [
+            "https://images.unsplash.com/photo-1693753309099-2f4ca709d15b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxEdW5lJTIwYnklMjBGcmFuayUyMEhlcmJlcnR8ZW58MHx8fHwxNzU3MDEyNDk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1523516118247-bd68d99e83c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxEdW5lJTIwYnklMjBGcmFuayUyMEhlcmJlcnR8ZW58MHx8fHwxNzU3MDEyNDk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1675670412085-1a8ff853895c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxEdW5lJTIwYnklMjBGcmFuayUyMEhlcmJlcnR8ZW58MHx8fHwxNzU3MDEyNDk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1719995314973-295d09dfa5a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxEdW5lJTIwYnklMjBGcmFuayUyMEhlcmJlcnR8ZW58MHx8fHwxNzU3MDEyNDk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1559030562-6ff8e4292968?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxEdW5lJTIwYnklMjBGcmFuayUyMEhlcmJlcnR8ZW58MHx8fHwxNzU3MDEyNDk5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Project Hail Mary by Andy Weir": [
+            "https://images.unsplash.com/photo-1605804449491-8206a2ae6f46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxQcm9qZWN0JTIwSGFpbCUyME1hcnklMjBieSUyMEFuZHklMjBXZWlyfGVufDB8fHx8MTc1NzAxMjUwMnww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1697227724747-f3b608348fef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxQcm9qZWN0JTIwSGFpbCUyME1hcnklMjBieSUyMEFuZHklMjBXZWlyfGVufDB8fHx8MTc1NzAxMjUwMnww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1737272147898-834d8542c7e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxQcm9qZWN0JTIwSGFpbCUyME1hcnklMjBieSUyMEFuZHklMjBXZWlyfGVufDB8fHx8MTc1NzAxMjUwMnww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1617834322926-6fbe8cac272c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxQcm9qZWN0JTIwSGFpbCUyME1hcnklMjBieSUyMEFuZHklMjBXZWlyfGVufDB8fHx8MTc1NzAxMjUwMnww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1726194227835-ab293d7d273b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxQcm9qZWN0JTIwSGFpbCUyME1hcnklMjBieSUyMEFuZHklMjBXZWlyfGVufDB8fHx8MTc1NzAxMjUwMnww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Atomic Habits by James Clear": [
+            "https://images.unsplash.com/photo-1615253892603-719d2472c74c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxBdG9taWMlMjBIYWJpdHMlMjBieSUyMEphbWVzJTIwQ2xlYXJ8ZW58MHx8fHwxNzU3MDEyNTA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1613520761471-8d5f28e343c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxBdG9taWMlMjBIYWJpdHMlMjBieSUyMEphbWVzJTIwQ2xlYXJ8ZW58MHx8fHwxNzU3MDEyNTA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1598301257942-e6bde1d2149b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxBdG9taWMlMjBIYWJpdHMlMjBieSUyMEphbWVzJTIwQ2xlYXJ8ZW58MHx8fHwxNzU3MDEyNTA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1636969350231-72efc8748e66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxBdG9taWMlMjBIYWJpdHMlMjBieSUyMEphbWVzJTIwQ2xlYXJ8ZW58MHx8fHwxNzU3MDEyNTA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1582390730982-ed28c021a544?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxBdG9taWMlMjBIYWJpdHMlMjBieSUyMEphbWVzJTIwQ2xlYXJ8ZW58MHx8fHwxNzU3MDEyNTA0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "The Midnight Library by Matt Haig": [
+            "https://images.unsplash.com/photo-1711896099542-53253887088a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxUaGUlMjBNaWRuaWdodCUyMExpYnJhcnklMjBieSUyME1hdHQlMjBIYWlnfGVufDB8fHx8MTc1NzAxMjUwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1729199716464-856d43731529?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxUaGUlMjBNaWRuaWdodCUyMExpYnJhcnklMjBieSUyME1hdHQlMjBIYWlnfGVufDB8fHx8MTc1NzAxMjUwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1537202108838-e7072bad1927?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxUaGUlMjBNaWRuaWdodCUyMExpYnJhcnklMjBieSUyME1hdHQlMjBIYWlnfGVufDB8fHx8MTc1NzAxMjUwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1684696200477-92e6fc6e9a7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxUaGUlMjBNaWRuaWdodCUyMExpYnJhcnklMjBieSUyME1hdHQlMjBIYWlnfGVufDB8fHx8MTc1NzAxMjUwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1563135629-4850a3517799?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxUaGUlMjBNaWRuaWdodCUyMExpYnJhcnklMjBieSUyME1hdHQlMjBIYWlnfGVufDB8fHx8MTc1NzAxMjUwN3ww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Where the Crawdads Sing by Delia Owens": [
+            "https://images.unsplash.com/photo-1577974732099-e1a11ea4a384?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxXaGVyZSUyMHRoZSUyMENyYXdkYWRzJTIwU2luZyUyMGJ5JTIwRGVsaWElMjBPd2Vuc3xlbnwwfHx8fDE3NTcwMTI1MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1667514625200-27d9a5a2194b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxXaGVyZSUyMHRoZSUyMENyYXdkYWRzJTIwU2luZyUyMGJ5JTIwRGVsaWElMjBPd2Vuc3xlbnwwfHx8fDE3NTcwMTI1MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1692554838244-2425f5769011?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxXaGVyZSUyMHRoZSUyMENyYXdkYWRzJTIwU2luZyUyMGJ5JTIwRGVsaWElMjBPd2Vuc3xlbnwwfHx8fDE3NTcwMTI1MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1716298212651-c5845f82a25a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxXaGVyZSUyMHRoZSUyMENyYXdkYWRzJTIwU2luZyUyMGJ5JTIwRGVsaWElMjBPd2Vuc3xlbnwwfHx8fDE3NTcwMTI1MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1694857255760-44fcdd35d232?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxXaGVyZSUyMHRoZSUyMENyYXdkYWRzJTIwU2luZyUyMGJ5JTIwRGVsaWElMjBPd2Vuc3xlbnwwfHx8fDE3NTcwMTI1MTB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ]
+    },
+    "Smart Home": {
+        "Philips Hue Starter Kit": [
+            "https://images.unsplash.com/photo-1567688535100-5dc79f1ca57e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxQaGlsaXBzJTIwSHVlJTIwU3RhcnRlciUyMEtpdHxlbnwwfHx8fDE3NTcwMTI1MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1675741954819-18ceaf53eb9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxQaGlsaXBzJTIwSHVlJTIwU3RhcnRlciUyMEtpdHxlbnwwfHx8fDE3NTcwMTI1MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1689509973848-b258e42f394d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxQaGlsaXBzJTIwSHVlJTIwU3RhcnRlciUyMEtpdHxlbnwwfHx8fDE3NTcwMTI1MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1589412712926-0e263eb8e4df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxQaGlsaXBzJTIwSHVlJTIwU3RhcnRlciUyMEtpdHxlbnwwfHx8fDE3NTcwMTI1MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1636014692027-852e1e6702ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxQaGlsaXBzJTIwSHVlJTIwU3RhcnRlciUyMEtpdHxlbnwwfHx8fDE3NTcwMTI1MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Google Nest Thermostat": [
+            "https://images.unsplash.com/photo-1545259742-b4fd8fea67e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxHb29nbGUlMjBOZXN0JTIwVGhlcm1vc3RhdHxlbnwwfHx8fDE3NTcwMTI1MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1545259741-2ea3ebf61fa3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxHb29nbGUlMjBOZXN0JTIwVGhlcm1vc3RhdHxlbnwwfHx8fDE3NTcwMTI1MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1607569596748-4bfb2922f01a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxHb29nbGUlMjBOZXN0JTIwVGhlcm1vc3RhdHxlbnwwfHx8fDE3NTcwMTI1MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1689307177495-fea6058b7366?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxHb29nbGUlMjBOZXN0JTIwVGhlcm1vc3RhdHxlbnwwfHx8fDE3NTcwMTI1MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1572537842835-08c65286efef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxHb29nbGUlMjBOZXN0JTIwVGhlcm1vc3RhdHxlbnwwfHx8fDE3NTcwMTI1MTR8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Ring Video Doorbell": [
+            "https://images.unsplash.com/photo-1667319515760-47d5cd86cb66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxSaW5nJTIwVmlkZW8lMjBEb29yYmVsbHxlbnwwfHx8fDE3NTcwMTI1MTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1583129794521-437167ce03a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxSaW5nJTIwVmlkZW8lMjBEb29yYmVsbHxlbnwwfHx8fDE3NTcwMTI1MTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1609930248944-2ebd324b772b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxSaW5nJTIwVmlkZW8lMjBEb29yYmVsbHxlbnwwfHx8fDE3NTcwMTI1MTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1752090925195-823a516485c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxSaW5nJTIwVmlkZW8lMjBEb29yYmVsbHxlbnwwfHx8fDE3NTcwMTI1MTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1619107974153-ea1dabf5253b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxSaW5nJTIwVmlkZW8lMjBEb29yYmVsbHxlbnwwfHx8fDE3NTcwMTI1MTd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Echo Show 8": [
+            "https://images.unsplash.com/photo-1544653546-b0f98edb134d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxFY2hvJTIwU2hvdyUyMDh8ZW58MHx8fHwxNzU3MDEyNTE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1603889951268-f519370daf0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxFY2hvJTIwU2hvdyUyMDh8ZW58MHx8fHwxNzU3MDEyNTE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1700700736027-2c037f3399c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxFY2hvJTIwU2hvdyUyMDh8ZW58MHx8fHwxNzU3MDEyNTE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1593808318671-c8d0c1239396?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxFY2hvJTIwU2hvdyUyMDh8ZW58MHx8fHwxNzU3MDEyNTE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1675968996011-e37e16cd55db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxFY2hvJTIwU2hvdyUyMDh8ZW58MHx8fHwxNzU3MDEyNTE5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "TP-Link Kasa Smart Plug": [
+            "https://images.unsplash.com/photo-1603373320366-8c553c3709f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxUUC1MaW5rJTIwS2FzYSUyMFNtYXJ0JTIwUGx1Z3xlbnwwfHx8fDE3NTcwMTI1MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1732716286592-996f9e08a296?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxUUC1MaW5rJTIwS2FzYSUyMFNtYXJ0JTIwUGx1Z3xlbnwwfHx8fDE3NTcwMTI1MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1626368169654-e597ccfbe7e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxUUC1MaW5rJTIwS2FzYSUyMFNtYXJ0JTIwUGx1Z3xlbnwwfHx8fDE3NTcwMTI1MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1560113562-aa164ec190bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxUUC1MaW5rJTIwS2FzYSUyMFNtYXJ0JTIwUGx1Z3xlbnwwfHx8fDE3NTcwMTI1MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1580370636283-d0022380db55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxUUC1MaW5rJTIwS2FzYSUyMFNtYXJ0JTIwUGx1Z3xlbnwwfHx8fDE3NTcwMTI1MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        ]
+    },
+    "Networking": {
+        "TP-Link Archer AXE75 Router": [
+            "https://images.unsplash.com/photo-1606904825846-647eb07f5be2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxUUC1MaW5rJTIwQXJjaGVyJTIwQVhFNzUlMjBSb3V0ZXJ8ZW58MHx8fHwxNzU3MDEyNTI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1544985562-128e7b377a21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxUUC1MaW5rJTIwQXJjaGVyJTIwQVhFNzUlMjBSb3V0ZXJ8ZW58MHx8fHwxNzU3MDEyNTI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1531765408077-9a1f85f90df1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxUUC1MaW5rJTIwQXJjaGVyJTIwQVhFNzUlMjBSb3V0ZXJ8ZW58MHx8fHwxNzU3MDEyNTI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1715891735523-42201043ba59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxUUC1MaW5rJTIwQXJjaGVyJTIwQVhFNzUlMjBSb3V0ZXJ8ZW58MHx8fHwxNzU3MDEyNTI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1750711731797-25c3f2551ff8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxUUC1MaW5rJTIwQXJjaGVyJTIwQVhFNzUlMjBSb3V0ZXJ8ZW58MHx8fHwxNzU3MDEyNTI0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Ubiquiti UniFi Dream Machine": [
+            "https://images.unsplash.com/photo-1596040173405-d36a6bfabc1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxVYmlxdWl0aSUyMFVuaUZpJTIwRHJlYW0lMjBNYWNoaW5lfGVufDB8fHx8MTc1NzAxMjUyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1636940478929-3f69a129e900?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxVYmlxdWl0aSUyMFVuaUZpJTIwRHJlYW0lMjBNYWNoaW5lfGVufDB8fHx8MTc1NzAxMjUyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1725916631452-b411a5991fce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxVYmlxdWl0aSUyMFVuaUZpJTIwRHJlYW0lMjBNYWNoaW5lfGVufDB8fHx8MTc1NzAxMjUyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1706304003186-61fa7521c236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxVYmlxdWl0aSUyMFVuaUZpJTIwRHJlYW0lMjBNYWNoaW5lfGVufDB8fHx8MTc1NzAxMjUyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1627658555302-a067928bd06e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxVYmlxdWl0aSUyMFVuaUZpJTIwRHJlYW0lMjBNYWNoaW5lfGVufDB8fHx8MTc1NzAxMjUyN3ww&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Eero Pro 6E": [
+            "https://images.unsplash.com/photo-1723203331190-438284c94752?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxFZXJvJTIwUHJvJTIwNkV8ZW58MHx8fHwxNzU3MDEyNTI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1580636319416-bb90117ead47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxFZXJvJTIwUHJvJTIwNkV8ZW58MHx8fHwxNzU3MDEyNTI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1709540236140-3cc1a3db3769?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxFZXJvJTIwUHJvJTIwNkV8ZW58MHx8fHwxNzU3MDEyNTI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1660684470385-2a062d528b08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxFZXJvJTIwUHJvJTIwNkV8ZW58MHx8fHwxNzU3MDEyNTI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1709540235691-b4e462880ebf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxFZXJvJTIwUHJvJTIwNkV8ZW58MHx8fHwxNzU3MDEyNTI5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ],
+        "Netgear Nighthawk WiFi 6 Router": [
+            "https://images.unsplash.com/photo-1606904825846-647eb07f5be2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwxfHxOZXRnZWFyJTIwTmlnaHRoYXdrJTIwV2lGaSUyMDYlMjBSb3V0ZXJ8ZW58MHx8fHwxNzU3MDEyNTMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1745847768408-b7b83796cae6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwyfHxOZXRnZWFyJTIwTmlnaHRoYXdrJTIwV2lGaSUyMDYlMjBSb3V0ZXJ8ZW58MHx8fHwxNzU3MDEyNTMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1636015856875-00ce4b89433d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHwzfHxOZXRnZWFyJTIwTmlnaHRoYXdrJTIwV2lGaSUyMDYlMjBSb3V0ZXJ8ZW58MHx8fHwxNzU3MDEyNTMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1568681877520-314c94ee717a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw0fHxOZXRnZWFyJTIwTmlnaHRoYXdrJTIwV2lGaSUyMDYlMjBSb3V0ZXJ8ZW58MHx8fHwxNzU3MDEyNTMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "https://images.unsplash.com/photo-1662348316783-74c476374fcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDA1MDV8MHwxfHNlYXJjaHw1fHxOZXRnZWFyJTIwTmlnaHRoYXdrJTIwV2lGaSUyMDYlMjBSb3V0ZXJ8ZW58MHx8fHwxNzU3MDEyNTMyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        ]
+    },
+    "Power & Batteries": {
+        "Anker PowerCore 10000": [],
+        "Jackery Explorer 300": [],
+        "Anker 737 Power Bank": [],
+        "Goal Zero Yeti 500X": [],
+        "Energizer Ultimate Lithium AA": []
+    },
+    "Furniture": {
+        "Herman Miller Aeron Chair": [],
+        "IKEA Kallax Shelf Unit": [],
+        "Uplift V2 Standing Desk": [],
+        "La-Z-Boy Recliner": [],
+        "Ashley Furniture Sectional": []
+    }
+}

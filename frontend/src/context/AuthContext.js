@@ -1,4 +1,5 @@
 // frontend/src/context/AuthContext.js
+
 import React, { createContext, useState, useContext, useEffect } from 'react';
 import axios from 'axios';
 
@@ -6,31 +7,35 @@ const AuthContext = createContext(null);
 
 export const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null);
+    const [isLoading, setIsLoading] = useState(true); // <-- ADD THIS
 
     useEffect(() => {
         const token = localStorage.getItem('access_token');
         if (token) {
             axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
-            axios.get('http://127.0.0.1:8000/api/user/')
+            axios.get('/api/user/')
                 .then(response => {
                     setUser(response.data);
                 })
                 .catch(() => {
-                    // Token might be invalid/expired
                     localStorage.clear();
                     delete axios.defaults.headers.common['Authorization'];
+                })
+                .finally(() => {
+                    setIsLoading(false); // <-- SET LOADING TO FALSE HERE
                 });
+        } else {
+            setIsLoading(false); // <-- AND ALSO HERE
         }
     }, []);
 
     const login = async (username, password) => {
-        const response = await axios.post('http://127.0.0.1:8000/api/token/', { username, password });
+        const response = await axios.post('/api/token/', { username, password });
         localStorage.setItem('access_token', response.data.access);
         localStorage.setItem('refresh_token', response.data.refresh);
         axios.defaults.headers.common['Authorization'] = `Bearer ${response.data.access}`;
-
-        // Fetch user details after setting token
-        const userResponse = await axios.get('http://127.0.0.1:8000/api/user/');
+        
+        const userResponse = await axios.get('/api/user/');
         setUser(userResponse.data);
     };
 
@@ -40,9 +45,12 @@ export const AuthProvider = ({ children }) => {
         delete axios.defaults.headers.common['Authorization'];
     };
 
+    const value = { user, isLoading, login, logout }; // <-- PROVIDE isLoading
+
+    // Don't render children until the loading check is complete
     return (
-        <AuthContext.Provider value={{ user, login, logout }}>
-            {children}
+        <AuthContext.Provider value={value}>
+            {!isLoading && children}
         </AuthContext.Provider>
     );
 };

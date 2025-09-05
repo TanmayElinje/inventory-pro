@@ -2,31 +2,51 @@
 
 import React, { useState } from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
-import axios from 'axios';
+import api from '../api/axiosConfig'; // <-- Use our centralized, authenticated api instance
 
 const AdjustStockModal = ({ show, handleClose, product, onStockUpdated }) => {
-    const [quantityChange, setQuantityChange] = useState(0);
+    const [quantityChange, setQuantityChange] = useState('');
     const [reason, setReason] = useState('');
 
     const handleSubmit = (e) => {
-        e.preventDefault();
-        const data = {
-            quantity_change: quantityChange,
-            reason: reason,
-        };
-
-        axios.post(`/api/products/${product.id}/adjust_stock/`, data)
-            .then(res => {
-                onStockUpdated(res.data); // Update the product list in the parent
-                handleClose(); // Close the modal
-                setQuantityChange(0); // Reset form
-                setReason('');
-            })
-            .catch(err => {
-                console.error(err);
-                alert('Error adjusting stock: ' + (err.response?.data?.error || 'Unknown error'));
-            });
+    e.preventDefault();
+    const data = {
+        quantity_change: quantityChange,
+        reason: reason,
     };
+
+    api.post(`/api/products/${product.id}/adjust_stock/`, data)
+        .then(res => {
+            onStockUpdated(res.data);
+            handleClose();
+        })
+        .catch(err => {
+            // --- NEW, MORE DETAILED ERROR HANDLING ---
+            console.error("Full error response from backend:", err.response);
+            
+            let errorMessage = 'Please check your input.';
+            // Check if the server sent a specific error message
+            if (err.response && err.response.data) {
+                const errorData = err.response.data;
+                // Try to find the first error message from DRF's validation format
+                const errorKey = Object.keys(errorData)[0];
+                if (errorKey && Array.isArray(errorData[errorKey])) {
+                    errorMessage = errorData[errorKey][0];
+                } else if (errorData.error) {
+                    errorMessage = errorData.error;
+                }
+            }
+            alert(`Error adjusting stock: ${errorMessage}`);
+        });
+};
+
+    // Reset state when the modal is opened for a new product
+    React.useEffect(() => {
+        if (show) {
+            setQuantityChange('');
+            setReason('');
+        }
+    }, [show]);
 
     return (
         <Modal show={show} onHide={handleClose}>

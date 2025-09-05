@@ -1,38 +1,169 @@
-.App {
-  text-align: center;
+/* frontend/src/App.css */
+
+/* --- Global Styles --- */
+body {
+  background-color: #F7F5E4; /* Light beige applied to every page */
+  color: #212529; /* A slightly off-black for better readability on beige */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* --- Login Page Styles --- */
+/* The login container is now only responsible for centering the form */
+.login-page-container {
+  min-height: 90vh; /* Adjusted to account for navbar */
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* --- Component Styles --- */
+.custom-navbar {
+  background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-lift {
+  transition: transform .2s, box-shadow .2s;
+  border: 1px solid #000000;
+}
+
+.card-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.btn-custom-teal {
+  background-color: #20c997;
+  border-color: #426157;
+  font-weight: bold;
+}
+
+.btn-custom-teal:hover {
+  background-color: #1baa80;
+  border-color: #1baa80;
+}
+
+/* --- Custom Table Styles --- */
+
+.table-container {
+  background-color: #ffffff; /* White background for the table area */
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.custom-table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+/* Table Header Style */
+.custom-table thead th {
+  background-color: #f8f9fa; /* A very light grey for the header */
+  border-bottom: 2px solid #dee2e6;
+  border-top: none;
+  font-weight: 600; /* Bolder font */
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.85rem;
+}
+
+/* Table Row & Cell Style */
+.custom-table tbody td {
+  padding: 1rem; /* More vertical padding for spacing */
+  vertical-align: middle; /* Center content vertically */
+  border-top: 1px solid #f1f3f5; /* Light horizontal lines */
+}
+
+/* Remove the default top border from the first row */
+.custom-table tbody tr:first-child td {
+  border-top: none;
+}
+
+/* Add a subtle hover effect */
+.custom-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* --- Product Card Styles --- */
+.product-card-img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%; /* Ensure image fills the carousel item */
+}
+
+/* --- NEW: Styles for the image scroller in the product card --- */
+.card-img-scroller {
+  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-y: hidden;
+  white-space: nowrap; /* Keep images in a single line */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+  -ms-overflow-style: none;  /* Hide scrollbar for IE and Edge */
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.card-img-scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.card-img-scroller .card-img-container {
+  display: inline-flex; /* Use flex to line up images */
+}
+
+.card-img-scroller img {
+  height: 200px;
+  width: auto; /* Let the width be automatic to maintain aspect ratio */
+  object-fit: cover;
+  margin-right: 2px; /* A tiny gap between images */
+}
+
+.product-detail-carousel .carousel-item img {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* --- Custom Dashboard Card Backgrounds --- */
+.card-bg-blue-purple {
+  background-image: linear-gradient(to right, #101347, #232ef8);
+}
+
+.card-bg-green-teal {
+  background-image: linear-gradient(to right, #125d42, #1ee768);
+}
+
+.card-bg-red-orange {
+  background-image: linear-gradient(to right, #440a10, #ea384d);
+}
+
+/* --- Landing Page Styles --- */
+
+.landing-hero {
+  padding: 8rem 0;
+  background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  background-size: cover;
+  background-position: center;
+}
+
+.feature-card {
+  border: none;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: transform .2s, box-shadow .2s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: #2c5364;
+  margin-bottom: 1rem;
+}
+
+/* ADD this new rule to style the modal directly */
+.custom-login-modal .modal-content {
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
