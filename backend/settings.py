@@ -15,6 +15,10 @@ CSRF_TRUSTED_ORIGINS = [
     "https://inventory-pro-49re.onrender.com",
 ]
 
+CORS_ALLOWED_ORIGINS = [
+    "https://stocklane.netlify.app/",
+]
+
 INSTALLED_APPS = [
     'daphne',
     'django.contrib.admin',
