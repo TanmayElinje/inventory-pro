@@ -11,6 +11,10 @@ SECRET_KEY = config('SECRET_KEY', default='local-secret-key-for-dev')
 DEBUG = config('DEBUG', default=True, cast=bool)
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='localhost 127.0.0.1').split()
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://inventory-pro-49re.onrender.com",
+]
+
 INSTALLED_APPS = [
     'daphne',
     'django.contrib.admin',
