@@ -11,14 +11,16 @@ const AdjustStockModal = ({ show, handleClose, product, onStockUpdated }) => {
     const handleSubmit = (e) => {
     e.preventDefault();
     const data = {
-        quantity_change: quantityChange,
+        quantity_change: Number(quantityChange),
         reason: reason,
     };
 
     api.post(`/api/products/${product.id}/adjust_stock/`, data)
         .then(res => {
-            onStockUpdated(res.data);
-            //handleClose();
+            onStockUpdated(res.data); // update product state in parent
+            setQuantityChange('');
+            setReason('');
+            handleClose();
         })
         .catch(err => {
             // --- NEW, MORE DETAILED ERROR HANDLING ---
