@@ -3,7 +3,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://127.0.0.1:8000'
+    baseURL: 'https://inventory-pro-opom.onrender.com'
 });
 
 // This interceptor runs before each request is sent.
