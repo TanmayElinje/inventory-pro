@@ -1,7 +1,7 @@
 // frontend/src/pages/CategoryPage.js
 
 import React, { useState, useEffect, useCallback } from 'react';
-import { Button, Alert, Pagination, InputGroup, Form, Container, Card, Row, Col } from 'react-bootstrap';
+import { Alert, Pagination, InputGroup, Form, Container, Card, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import api from '../api/axiosConfig';
 
