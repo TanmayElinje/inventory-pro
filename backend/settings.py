@@ -15,6 +15,7 @@ CSRF_TRUSTED_ORIGINS = [
     "https://inventory-pro-49re.onrender.com",
 ]
 
+CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     "https://stocklane.netlify.app/",
 ]

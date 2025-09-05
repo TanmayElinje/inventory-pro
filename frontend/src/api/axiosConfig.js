@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://inventory-pro-49re.onrender.com/api/',
+    baseURL: 'https://inventory-pro-49re.onrender.com',
 });
 
 api.interceptors.request.use(
