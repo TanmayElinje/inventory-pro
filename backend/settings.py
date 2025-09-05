@@ -11,14 +11,18 @@ SECRET_KEY = config('SECRET_KEY', default='local-secret-key-for-dev')
 DEBUG = config('DEBUG', default=True, cast=bool)
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='localhost 127.0.0.1').split()
 
+
 CSRF_TRUSTED_ORIGINS = [
-    "https://inventory-pro-49re.onrender.com",
+    "https://inventory-pro-49re.onrender.com",  # backend URL
+]
+
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",  # local dev
+    "https://stocklane.netlify.app",  # frontend deployed
 ]
 
 CORS_ALLOW_CREDENTIALS = True
-CORS_ALLOWED_ORIGINS = [
-    "https://stocklane.netlify.app/",
-]
 
 INSTALLED_APPS = [
     'daphne',
@@ -37,10 +41,10 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -119,16 +123,15 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 50,
 }
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-]
-
 CHANNEL_LAYERS = {
-    'default': {
-        'BACKEND': 'channels_redis.core.RedisChannelLayer',
-        'CONFIG': { "hosts": [('127.0.0.1', 6379)], },
+    "default": {
+        "BACKEND": "channels_redis.core.RedisChannelLayer",
+        "CONFIG": {
+            "hosts": [os.environ.get("REDIS_URL", "redis://127.0.0.1:6379")],
+        },
     },
 }
+
 
 # Role codes for signup
 ADMIN_CODE = config('ADMIN_CODE', default='admin_default')
