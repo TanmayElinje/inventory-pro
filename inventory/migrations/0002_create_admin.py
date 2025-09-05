@@ -1,26 +1,23 @@
-from django.conf import settings
 from django.db import migrations
+import os
 
 def create_admin(apps, schema_editor):
-    from django.contrib.auth.models import User
-    username = settings.ADMIN_USER
-    email = settings.ADMIN_EMAIL
-    password = settings.ADMIN_PASS
+    User = apps.get_model("auth", "User")
+
+    username = os.environ.get("ADMIN_USER", "admin")
+    email = os.environ.get("ADMIN_EMAIL", "admin@example.com")
+    password = os.environ.get("ADMIN_PASS", "admin123")
 
     if not User.objects.filter(username=username).exists():
-        User.objects.create_superuser(
-            username=username,
-            email=email,
-            password=password
-        )
-        print(f"Superuser '{username}' created.")
+        User.objects.create_superuser(username=username, email=email, password=password)
+        print(f"Superuser '{username}' created successfully!")
     else:
         print(f"Superuser '{username}' already exists.")
 
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('inventory', '0001_initial'),  # apni first migration ka naam yahan dale
+        ("inventory", "0001_initial"),
     ]
 
     operations = [
