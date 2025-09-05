@@ -12,10 +12,9 @@ from rest_framework.views import APIView
 from django_filters.rest_framework import DjangoFilterBackend
 from .serializers import RegisterSerializer
 from rest_framework import generics
-from django.http import HttpResponse
-from django.contrib.admin.views.decorators import staff_member_required
+from django.http import JsonResponse
+from django.contrib.auth.decorators import user_passes_test
 from django.core.management import call_command
-
 from .models import Supplier, Category, Product, StockMovement
 from .serializers import (
     SupplierSerializer, CategorySerializer, ProductSerializer, 
@@ -225,8 +224,18 @@ def top_selling_products_view(request):
     return Response(list(top_products))
 
 
-@staff_member_required
+# Decorator ensures only superusers can hit this endpoint
+def superuser_required(view_func):
+    return user_passes_test(lambda u: u.is_superuser, login_url='/')(view_func)
+
+@superuser_required
 def seed_db(request):
-    call_command('seed_data')
-    return HttpResponse("Database seeded!")
+    if request.method == "GET":
+        try:
+            # Call your management command 'seed_data'
+            call_command('seed_data')
+            return JsonResponse({"status": "success", "message": "Database seeded successfully!"})
+        except Exception as e:
+            return JsonResponse({"status": "error", "message": str(e)})
+    return JsonResponse({"status": "error", "message": "Invalid request method."})
     
