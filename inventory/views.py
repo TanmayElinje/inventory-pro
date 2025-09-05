@@ -10,6 +10,8 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from django_filters.rest_framework import DjangoFilterBackend
+from .serializers import RegisterSerializer
+from rest_framework import generics
 
 from .models import Supplier, Category, Product, StockMovement
 from .serializers import (
@@ -159,6 +161,11 @@ class DashboardAnalyticsView(APIView):
             'revenue_by_category': list(revenue_by_category),
         }
         return Response(data)
+    
+class RegisterView(generics.CreateAPIView):
+    queryset = User.objects.all()
+    serializer_class = RegisterSerializer
+    permission_classes = [] # Allow any user to access this view
     
 # --- ADD THIS NEW FUNCTION AT THE END OF THE FILE ---
 @api_view(['GET'])

@@ -1,12 +1,9 @@
-// frontend/src/api/axiosConfig.js
-
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://inventory-pro-opom.onrender.com'
+    baseURL: 'http://127.0.0.1:8000'
 });
 
-// This interceptor runs before each request is sent.
 api.interceptors.request.use(
     config => {
         const token = localStorage.getItem('access_token');

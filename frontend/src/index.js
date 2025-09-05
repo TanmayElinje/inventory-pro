@@ -1,16 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Add this line
-import axios from 'axios'; 
-import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import { AuthProvider } from './context/AuthContext';
-import { UIProvider } from './context/UIContext';
-
-axios.defaults.baseURL = 'http://127.0.0.1:8000';
+import { UIProvider } from './context/UIContext'; // Import UIProvider
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  // StrictMode can be re-enabled later for debugging
   <React.StrictMode>
     <UIProvider>
       <AuthProvider>
@@ -19,4 +16,3 @@ root.render(
     </UIProvider>
   </React.StrictMode>
 );
-

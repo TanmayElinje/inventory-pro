@@ -1,29 +1,25 @@
-// frontend/src/pages/LandingPage.js
-
 import React from 'react';
 import { Container, Row, Col, Button, Card } from 'react-bootstrap';
 import { GraphUp, ShieldLock, BoxSeam } from 'react-bootstrap-icons';
-import { useUI } from '../context/UIContext'; // Import the UI hook
-import LoginModal from '../components/LoginModal'; // Import the modal
+import { useUI } from '../context/UIContext';
 
 const LandingPage = () => {
-    const { openLoginModal } = useUI(); // Get the function to open the modal
+    const { openLoginModal } = useUI();
 
     return (
         <div>
-            {/* Hero Section */}
             <div className="landing-hero">
                 <Container className="text-center text-white">
-                    <h1 className="display-3">InventoryPro</h1>
-                    <p className="lead">The complete solution for real-time inventory management, tracking, and forecasting.</p>
-                    {/* This button now opens the modal */}
+                    <h1 className="display-3 fw-bold">StockLane</h1>
+                    <p className="lead fst-italic fw-bold">
+                        The complete solution for real-time inventory management, tracking, and forecasting.
+                    </p>
                     <Button variant="light" size="lg" className="mt-3" onClick={openLoginModal}>
                         Get Started
                     </Button>
                 </Container>
             </div>
 
-            {/* Features Section */}
             <Container className="py-5">
                 <h2 className="text-center mb-4">Key Features</h2>
                 <Row>
@@ -62,10 +58,9 @@ const LandingPage = () => {
                     </Col>
                 </Row>
             </Container>
-        {/* Render the LoginModal component */}
-            <LoginModal />
         </div>
     );
 };
 
 export default LandingPage;
+

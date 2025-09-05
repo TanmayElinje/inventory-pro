@@ -1,5 +1,3 @@
-// frontend/src/components/LoginModal.js
-
 import React, { useState, useEffect } from 'react';
 import { Modal, Form, Button, Alert } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
@@ -12,7 +10,7 @@ const LoginModal = () => {
     const [error, setError] = useState('');
     const navigate = useNavigate();
     const { login } = useAuth();
-    const { isLoginModalOpen, closeLoginModal } = useUI();
+    const { isLoginModalOpen, closeLoginModal, switchToSignUp } = useUI();
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -53,6 +51,9 @@ const LoginModal = () => {
                     <div className="d-grid mt-4">
                         <Button type="submit" className="btn-custom-teal" size="lg">Login</Button>
                     </div>
+                    <div className="text-center mt-3">
+                        <small>Don't have an account? <Button variant="link" size="sm" onClick={switchToSignUp}>Sign Up</Button></small>
+                    </div>
                 </Form>
             </Modal.Body>
         </Modal>
@@ -60,3 +61,4 @@ const LoginModal = () => {
 };
 
 export default LoginModal;
+

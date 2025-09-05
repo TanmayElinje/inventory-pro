@@ -72,7 +72,7 @@ const SupplierPage = () => {
             <Form.Group className="mb-3">
                 <InputGroup>
                     <InputGroup.Text>Search</InputGroup.Text>
-                    <Form.Control type="text" placeholder="Search by name or contact..." value={searchTerm} onChange={e => setSearchTerm(e.target.value)} />
+                    <Form.Control type="text" placeholder="Search by Name or Contact..." value={searchTerm} onChange={e => setSearchTerm(e.target.value)} />
                 </InputGroup>
             </Form.Group>
             

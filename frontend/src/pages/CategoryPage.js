@@ -67,7 +67,7 @@ const CategoryPage = () => {
             <Form.Group className="my-3">
                 <InputGroup>
                     <InputGroup.Text>Search</InputGroup.Text>
-                    <Form.Control type="text" placeholder="Search by category name..." value={searchTerm} onChange={e => setSearchTerm(e.target.value)} />
+                    <Form.Control type="text" placeholder="Search by Category Name..." value={searchTerm} onChange={e => setSearchTerm(e.target.value)} />
                 </InputGroup>
             </Form.Group>
 

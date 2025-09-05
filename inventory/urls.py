@@ -8,6 +8,7 @@ from .views import (
 )
 from .views import product_qrcode_view
 from .views import top_selling_products_view
+from .views import RegisterView 
 
 router = DefaultRouter()
 router.register(r'suppliers', SupplierViewSet)
@@ -22,4 +23,5 @@ urlpatterns = [
     path('analytics/', DashboardAnalyticsView.as_view(), name='dashboard_analytics'),
     path('products/<int:pk>/qrcode/', product_qrcode_view, name='product-qrcode'),
     path('analytics/top-products/', top_selling_products_view, name='top-products'),
+    path('register/', RegisterView.as_view(), name='register'),
 ]
