@@ -21,9 +21,8 @@ def home(request):
         }
     })
 
-
 urlpatterns = [
-    path('', home, name='home'),  # 👈 root route add kiya
+    path('', home, name='home'),  
     path('admin/', admin.site.urls),
     path('api/', include('inventory.urls')),
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
