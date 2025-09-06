@@ -5,7 +5,6 @@ import { Alert, Pagination, InputGroup, Form, Container, Card, Row, Col } from '
 import { Link } from 'react-router-dom';
 import api from '../api/axiosConfig';
 
-// A simple card component for displaying a category
 const CategoryCard = ({ category }) => (
     <Card as={Link} to={`/categories/${category.id}/products`} className="h-100 card-lift text-decoration-none text-dark">
         <Card.Img 
