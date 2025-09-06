@@ -2,36 +2,43 @@
 
 from django.db import transaction
 from django.db.models import Sum, F, Count, DecimalField
-from django.db.models.functions import Coalesce
-from rest_framework import viewsets, filters, parsers
+from django.db.models.functions import Coalesce, TruncDate
+from django.http import JsonResponse, HttpResponse
+from django.contrib.auth.decorators import user_passes_test
+from django.core.management import call_command
+from django.core.management.base import BaseCommand
+from django.utils import timezone
+from django.conf import settings
+from django.contrib.auth.models import User
+
+from rest_framework import viewsets, filters, parsers, generics
 from rest_framework.decorators import api_view, action, permission_classes
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
+
 from django_filters.rest_framework import DjangoFilterBackend
-from .serializers import RegisterSerializer
-from rest_framework import generics
-from django.http import JsonResponse
-from django.contrib.auth.decorators import user_passes_test
-from django.core.management import call_command
-from .models import Supplier, Category, Product, StockMovement
+
+from .models import Supplier, Category, Product, StockMovement, ProductImage
 from .serializers import (
     SupplierSerializer, CategorySerializer, ProductSerializer, 
-    StockMovementSerializer, UserSerializer
+    StockMovementSerializer, UserSerializer, RegisterSerializer
 )
 from .tasks import get_sales_forecast
+
 import qrcode
 import io
-from django.http import HttpResponse
+import random
+from faker import Faker
+from datetime import timedelta
+from tqdm import tqdm
 
-# --- Pagination Class ---
 class StandardResultsSetPagination(PageNumberPagination):
     page_size = 50
     page_size_query_param = 'page_size'
     max_page_size = 1000
 
-# --- ViewSets ---
 class SupplierViewSet(viewsets.ModelViewSet):
     queryset = Supplier.objects.all()
     serializer_class = SupplierSerializer
@@ -52,15 +59,13 @@ class ProductViewSet(viewsets.ModelViewSet):
     permission_classes = [IsAuthenticated]
     pagination_class = StandardResultsSetPagination
     
-    # --- THIS IS THE FIX ---
-    # Add JSONParser to the list of parsers
     parser_classes = [parsers.JSONParser, parsers.MultiPartParser, parsers.FormParser]
 
     filter_backends = [filters.SearchFilter, DjangoFilterBackend]
     search_fields = ['name', 'sku', 'category__name']
     filterset_fields = {
         'sale_price': ['gt', 'lt'],
-        'category': ['exact'], # <-- ADD THIS LINE
+        'category': ['exact'], 
     }
 
     @action(detail=True, methods=['post'])
@@ -90,14 +95,11 @@ class StockMovementViewSet(viewsets.ReadOnlyModelViewSet):
             queryset = queryset.filter(product_id=product_id)
         return queryset
 
-# --- API Views ---
 class CurrentUserView(APIView):
     permission_classes = [IsAuthenticated]
     def get(self, request):
         serializer = UserSerializer(request.user)
         return Response(serializer.data)
-
-# inventory/views.py
 
 import random
 from faker import Faker
@@ -116,10 +118,8 @@ class Command(BaseCommand):
     help = 'Seeds the database with data from the product_images.json file'
 
     def handle(self, *args, **kwargs):
-        # ... (rest of the file is the same)
         pass
 
-# --- UPDATED DashboardAnalyticsView ---
 class DashboardAnalyticsView(APIView):
     permission_classes = [IsAuthenticated]
     def get(self, request):
@@ -138,17 +138,14 @@ class DashboardAnalyticsView(APIView):
             except ValueError:
                 sales_movements = StockMovement.objects.filter(quantity_change__lt=0)
         
-        # --- These charts are all time-filtered ---
         sales_trend = sales_movements.annotate(day=TruncDate('timestamp')).values('day').annotate(total_revenue=Sum(F('quantity_change') * F('product__sale_price') * -1, output_field=DecimalField())).order_by('day')
         top_selling_products = sales_movements.values('product__name').annotate(units_sold=Sum('quantity_change') * -1).order_by('-units_sold')[:5]
         revenue_by_category = sales_movements.values('product__category__name').annotate(total_revenue=Sum(F('quantity_change') * F('product__sale_price') * -1, output_field=DecimalField())).order_by('-total_revenue')
 
-        # --- THIS QUERY IS NOW CORRECT AND DYNAMIC ---
         category_distribution = sales_movements.values('product__category__name') \
             .annotate(count=Count('product', distinct=True)) \
             .order_by('-count')
 
-        # --- These stats remain "All Time" ---
         total_inventory_value = Product.objects.aggregate(total_value=Coalesce(Sum(F('quantity') * F('sale_price'), output_field=DecimalField()), 0, output_field=DecimalField()))['total_value']
         total_products = Product.objects.count()
         low_stock_items = Product.objects.filter(quantity__lte=F('reorder_point')).count()
@@ -167,40 +164,25 @@ class DashboardAnalyticsView(APIView):
 class RegisterView(generics.CreateAPIView):
     queryset = User.objects.all()
     serializer_class = RegisterSerializer
-    permission_classes = [] # Allow any user to access this view
+    permission_classes = [] 
     
-# --- ADD THIS NEW FUNCTION AT THE END OF THE FILE ---
 @api_view(['GET'])
-#@permission_classes([IsAuthenticated])
 def product_qrcode_view(request, pk):
-    """
-    Generates and returns a QR code image for a given product's detail page.
-    """
     try:
-        # The data for the QR code will be the URL to the product on the frontend
         frontend_url = f"http://localhost:3000/products/{pk}"
-
-        # Generate the QR code image
         qr_image = qrcode.make(frontend_url, box_size=10)
-
-        # Save the image to an in-memory buffer
         buffer = io.BytesIO()
         qr_image.save(buffer, "PNG")
         buffer.seek(0)
 
-        # Return the image as an HTTP response
         return HttpResponse(buffer, content_type="image/png")
 
     except Product.DoesNotExist:
         return Response({'error': 'Product not found'}, status=404)
     
-# --- ADD THIS NEW, DEDICATED VIEW AT THE END OF THE FILE ---
 @api_view(['GET'])
 @permission_classes([IsAuthenticated])
 def top_selling_products_view(request):
-    """
-    Returns the top 5 selling products, filterable by time range and category.
-    """
     time_range = request.query_params.get('range', '30')
     category_id = request.query_params.get('category', None)
 
@@ -223,8 +205,6 @@ def top_selling_products_view(request):
     
     return Response(list(top_products))
 
-
-# Decorator ensures only superusers can hit this endpoint
 def superuser_required(view_func):
     return user_passes_test(lambda u: u.is_superuser, login_url='/')(view_func)
 
@@ -232,7 +212,6 @@ def superuser_required(view_func):
 def seed_db(request):
     if request.method == "GET":
         try:
-            # Call your management command 'seed_data'
             call_command('seed_data')
             return JsonResponse({"status": "success", "message": "Database seeded successfully!"})
         except Exception as e:
