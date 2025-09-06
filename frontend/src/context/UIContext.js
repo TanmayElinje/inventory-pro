@@ -18,7 +18,6 @@ export const UIProvider = ({ children }) => {
     };
     const closeSignUpModal = () => setIsSignUpModalOpen(false);
 
-    // Helper functions to switch between modals
     const switchToSignUp = () => {
         closeLoginModal();
         openSignUpModal();
