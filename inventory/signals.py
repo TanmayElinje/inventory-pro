@@ -10,12 +10,6 @@ from .serializers import ProductSerializer
 
 @receiver(post_save, sender=Product)
 def broadcast_product_update(sender, instance, **kwargs):
-    """
-    Broadcasts product updates to the 'products_group' channel,
-    ensuring related data is fully serialized.
-    """
-    
-    # ✅ Re-fetch the instance with related fields to ensure data consistency
     product = Product.objects.select_related('category', 'supplier').get(pk=instance.pk)
     
     channel_layer = get_channel_layer()
