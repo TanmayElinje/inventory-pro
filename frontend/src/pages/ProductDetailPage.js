@@ -22,7 +22,7 @@ const ProductDetailPage = () => {
     useEffect(() => {
         api.get(`/api/products/${id}/`)
             .then(res => {
-                console.log("PRODUCT DATA FROM API:", res.data); // Let's see what the API is sending
+                console.log("PRODUCT DATA FROM API:", res.data); 
                 setProduct(res.data);
             })
             .catch(err => {
@@ -51,7 +51,6 @@ const ProductDetailPage = () => {
     const forecastData = product?.forecast;
 
     const chartData = {
-        // --- UPDATED LABELS ---
         labels: [
             ...(forecastData?.historical?.labels || []), 
             'Month +1', 'Month +2', 'Month +3', 'Month +4'
