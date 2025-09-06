@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
-import api from '../api/axiosConfig'; // <-- Use our centralized, authenticated api instance
+import api from '../api/axiosConfig'; 
 
 const AdjustStockModal = ({ show, handleClose, product, onStockUpdated }) => {
     const [quantityChange, setQuantityChange] = useState('');
@@ -17,20 +17,17 @@ const AdjustStockModal = ({ show, handleClose, product, onStockUpdated }) => {
 
     api.post(`/api/products/${product.id}/adjust_stock/`, data)
         .then(res => {
-            onStockUpdated(res.data); // update product state in parent
+            onStockUpdated(res.data); 
             setQuantityChange('');
             setReason('');
             handleClose();
         })
         .catch(err => {
-            // --- NEW, MORE DETAILED ERROR HANDLING ---
             console.error("Full error response from backend:", err.response);
             
             let errorMessage = 'Please check your input.';
-            // Check if the server sent a specific error message
             if (err.response && err.response.data) {
                 const errorData = err.response.data;
-                // Try to find the first error message from DRF's validation format
                 const errorKey = Object.keys(errorData)[0];
                 if (errorKey && Array.isArray(errorData[errorKey])) {
                     errorMessage = errorData[errorKey][0];
@@ -42,7 +39,6 @@ const AdjustStockModal = ({ show, handleClose, product, onStockUpdated }) => {
         });
 };
 
-    // Reset state when the modal is opened for a new product
     React.useEffect(() => {
         if (show) {
             setQuantityChange('');
