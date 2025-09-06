@@ -2,14 +2,13 @@
 
 /* --- Global Styles --- */
 body {
-  background-color: #F7F5E4; /* Light beige applied to every page */
-  color: #212529; /* A slightly off-black for better readability on beige */
+  background-color: #F7F5E4; 
+  color: #212529; 
 }
 
 /* --- Login Page Styles --- */
-/* The login container is now only responsible for centering the form */
 .login-page-container {
-  min-height: 90vh; /* Adjusted to account for navbar */
+  min-height: 90vh; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,9 +42,8 @@ body {
 }
 
 /* --- Custom Table Styles --- */
-
 .table-container {
-  background-color: #ffffff; /* White background for the table area */
+  background-color: #ffffff; 
   border-radius: 8px;
   padding: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
@@ -58,10 +56,10 @@ body {
 
 /* Table Header Style */
 .custom-table thead th {
-  background-color: #f8f9fa; /* A very light grey for the header */
+  background-color: #f8f9fa; 
   border-bottom: 2px solid #dee2e6;
   border-top: none;
-  font-weight: 600; /* Bolder font */
+  font-weight: 600; 
   text-transform: uppercase;
   letter-spacing: 0.5px;
   font-size: 0.85rem;
@@ -69,9 +67,9 @@ body {
 
 /* Table Row & Cell Style */
 .custom-table tbody td {
-  padding: 1rem; /* More vertical padding for spacing */
-  vertical-align: middle; /* Center content vertically */
-  border-top: 1px solid #f1f3f5; /* Light horizontal lines */
+  padding: 1rem; 
+  vertical-align: middle; 
+  border-top: 1px solid #f1f3f5; 
 }
 
 /* Remove the default top border from the first row */
@@ -88,16 +86,16 @@ body {
 .product-card-img {
   height: 200px;
   object-fit: cover;
-  width: 100%; /* Ensure image fills the carousel item */
+  width: 100%; 
 }
 
 /* --- NEW: Styles for the image scroller in the product card --- */
 .card-img-scroller {
-  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-x: auto; 
   overflow-y: hidden;
-  white-space: nowrap; /* Keep images in a single line */
-  scrollbar-width: none; /* Hide scrollbar for Firefox */
-  -ms-overflow-style: none;  /* Hide scrollbar for IE and Edge */
+  white-space: nowrap; 
+  scrollbar-width: none; 
+  -ms-overflow-style: none;  
 }
 
 /* Hide scrollbar for Chrome, Safari, and Opera */
@@ -106,14 +104,14 @@ body {
 }
 
 .card-img-scroller .card-img-container {
-  display: inline-flex; /* Use flex to line up images */
+  display: inline-flex; 
 }
 
 .card-img-scroller img {
   height: 200px;
-  width: auto; /* Let the width be automatic to maintain aspect ratio */
+  width: auto; 
   object-fit: cover;
-  margin-right: 2px; /* A tiny gap between images */
+  margin-right: 2px; 
 }
 
 .product-detail-carousel .carousel-item img {
@@ -136,7 +134,6 @@ body {
 }
 
 /* --- Landing Page Styles --- */
-
 .landing-hero {
   padding: 8rem 0;
   background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364);
