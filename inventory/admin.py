@@ -12,6 +12,5 @@ class ProductAdmin(admin.ModelAdmin):
 
 admin.site.register(Supplier)
 admin.site.register(Category)
-# --- UPDATE THIS LINE ---
 admin.site.register(Product, ProductAdmin)
 admin.site.register(ProductImage)
