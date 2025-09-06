@@ -8,10 +8,8 @@ from channels.auth import AuthMiddlewareStack
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backend.settings')
 
-# Initialize Django first
 django.setup()
 
-# Import things that rely on Django apps AFTER setup
 from inventory.middleware import TokenAuthMiddleware
 import inventory.routing
 
