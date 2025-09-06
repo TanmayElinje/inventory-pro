@@ -6,13 +6,12 @@ import api from '../api/axiosConfig';
 
 const AddProductModal = ({ show, handleClose, onProductAdded }) => {
     const [productData, setProductData] = useState({ name: '', sku: '', quantity: 0, sale_price: '', cost_price: '', category_id: '', supplier_id: '' });
-    const [productImage, setProductImage] = useState(null); // State for the image file
+    const [productImage, setProductImage] = useState(null); 
     const [categories, setCategories] = useState([]);
     const [suppliers, setSuppliers] = useState([]);
 
     useEffect(() => {
         if (show) {
-            // Reset form on open
             setProductData({ name: '', sku: '', quantity: 0, sale_price: '', cost_price: '', category_id: '', supplier_id: '' });
             setProductImage(null);
             
@@ -33,11 +32,9 @@ const AddProductModal = ({ show, handleClose, onProductAdded }) => {
         e.preventDefault();
         
         const formData = new FormData();
-        // Append all text data
         for (const key in productData) {
             formData.append(key, productData[key]);
         }
-        // Append the image file if it exists
         if (productImage) {
             formData.append('image', productImage);
         }
