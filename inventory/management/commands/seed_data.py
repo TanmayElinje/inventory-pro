@@ -20,7 +20,6 @@ class Command(BaseCommand):
 
         fake = Faker()
 
-        # Data source for category icons, as you provided
         category_icons = {
             "Smartphones": "https://img.icons8.com/3d-fluency/94/smartphone.png",
             "Laptops": "https://img.icons8.com/3d-fluency/94/laptop.png",
@@ -44,7 +43,6 @@ class Command(BaseCommand):
             "Furniture": "https://img.icons8.com/3d-fluency/94/sofa.png",
         }
 
-        # Load product and image gallery data from your JSON file
         json_file_path = os.path.join(os.path.dirname(__file__), 'product_images.json')
         try:
             with open(json_file_path) as f:
@@ -75,9 +73,8 @@ class Command(BaseCommand):
         self.stdout.write('Creating products from JSON file...')
         products_to_create = []
         
-        # First, prepare all the Product objects to be created
         for cat_name, products_dict in product_image_data.items():
-            if cat_name in category_objects: # Ensure category exists
+            if cat_name in category_objects: 
                 for product_name in products_dict.keys():
                     cost = round(random.uniform(10.0, 2000.0), 2)
                     sale = round(cost * random.uniform(1.3, 2.0), 2)
@@ -90,7 +87,6 @@ class Command(BaseCommand):
                     ))
         Product.objects.bulk_create(products_to_create)
         
-        # Create a mapping of product names to their new DB objects for image linking
         product_map = {p.name: p for p in Product.objects.all()}
 
         self.stdout.write('Assigning image galleries to products...')
