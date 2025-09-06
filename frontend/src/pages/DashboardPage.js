@@ -67,7 +67,6 @@ const DashboardPage = () => {
         }],
     };
 
-    // --- THIS CHART DATA IS NOW CORRECT ---
     const countCategoryData = analytics.category_distribution || [];
     const countChartData = {
         labels: countCategoryData.map(item => item.product__category__name),
