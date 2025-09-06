@@ -17,7 +17,6 @@ router.register(r'categories', CategoryViewSet)
 router.register(r'products', ProductViewSet)
 router.register(r'stock-movements', StockMovementViewSet, basename='stock-movement')
 
-# This is the corrected and complete urlpatterns list
 urlpatterns = [
     path('', include(router.urls)),
     path('user/', CurrentUserView.as_view(), name='current_user'),
