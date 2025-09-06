@@ -16,7 +16,7 @@ class Category(models.Model):
     image_url = models.URLField(max_length=500, null=True, blank=True)
 
     class Meta:
-        verbose_name_plural = "Categories" # Fixes the pluralization in the admin panel
+        verbose_name_plural = "Categories" 
 
     def __str__(self):
         return self.name
@@ -36,7 +36,6 @@ class Product(models.Model):
     def __str__(self):
         return f"{self.name} ({self.sku})"
     
-# --- ADD THIS NEW MODEL CLASS AT THE END OF THE FILE ---
 class StockMovement(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='movements')
     quantity_change = models.IntegerField()
