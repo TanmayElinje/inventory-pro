@@ -10,7 +10,6 @@ import EditProductModal from './EditProductModal';
 import AdjustStockModal from './AdjustStockModal';
 import api from '../api/axiosConfig';
 
-// A sub-component for rendering a single product card. (No changes needed here)
 const ProductCard = ({ user, product, onAdjustClick, onEditClick, onDeleteClick }) => {
     const canAdjustStock = user && (user.groups.includes('Admin') || user.groups.includes('Manager') || user.groups.includes('Staff'));
     const canEditDelete = user && (user.groups.includes('Admin') || user.groups.includes('Manager'));
@@ -44,7 +43,6 @@ const ProductList = () => {
     const navigate = useNavigate();
     const { categoryId } = useParams();
 
-    // The component's filters are now controlled by this state
     const searchParams = React.useMemo(() => new URLSearchParams(location.search), [location.search]);
     const [filters, setFilters] = React.useState({
         search: searchParams.get('search') || '',
@@ -54,7 +52,6 @@ const ProductList = () => {
 
     const canModify = user && (user.groups.includes('Admin') || user.groups.includes('Manager'));
     
-    // This single useEffect fetches data based on the URL. It's stable.
     React.useEffect(() => {
         const params = new URLSearchParams(location.search);
         if (categoryId) {
@@ -81,7 +78,6 @@ const ProductList = () => {
             .catch(error => setError('Could not fetch products.'));
     }, [location.search, categoryId]);
 
-    // WebSocket useEffect (no change, runs once)
     React.useEffect(() => {
         const token = localStorage.getItem('access_token');
         if (!token) return;
@@ -101,7 +97,6 @@ const ProductList = () => {
         setFilters(prevFilters => ({...prevFilters, [e.target.name]: e.target.value }));
     };
 
-    // This function now ONLY runs when the user clicks the button
     const handleApplyFilters = () => {
         const params = new URLSearchParams();
         if (filters.search) params.set('search', filters.search);
@@ -124,7 +119,6 @@ const ProductList = () => {
     
     const handleCloseModal = () => setModalState({ type: null, data: null });
     const handleActionSuccess = () => {
-    // Re-fetch products after any action (add/edit/adjust stock)
     const params = new URLSearchParams(location.search);
     if (categoryId) params.set('category', categoryId);
 
@@ -149,7 +143,6 @@ const ProductList = () => {
                 {!categoryId && (
                     <Card className="mb-4">
                         <Card.Body>
-                            {/* The form now has an onSubmit handler */}
                             <Form onSubmit={(e) => { e.preventDefault(); handleApplyFilters(); }}>
                                 <Row className="align-items-end">
                                     <Col md={5}><Form.Group><Form.Label>Search</Form.Label><Form.Control type="text" name="search" placeholder="By Product Name, SKU, or Product Category..." value={filters.search} onChange={handleFilterChange}/></Form.Group></Col>
