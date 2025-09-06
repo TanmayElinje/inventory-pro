@@ -13,13 +13,13 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='localhost 127.0.0.1').split()
 
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://inventory-pro-49re.onrender.com",  # backend URL
+    "https://inventory-pro-49re.onrender.com", 
 ]
 
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # local dev
-    "https://stocklane.netlify.app",  # frontend deployed
+    "http://localhost:3000",
+    "https://stocklane.netlify.app", 
 ]
 
 CORS_ALLOW_CREDENTIALS = True
@@ -73,9 +73,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'backend.wsgi.application'
 ASGI_APPLICATION = 'backend.asgi.application'
 
-# --- NEW, ROBUST DATABASE CONFIGURATION ---
 if 'DATABASE_URL' in os.environ:
-    # Production settings: Read the single DATABASE_URL from Render
     DATABASES = {
         'default': dj_database_url.config(
             conn_max_age=600,
@@ -84,7 +82,6 @@ if 'DATABASE_URL' in os.environ:
     }
     DATABASES['default']['ENGINE'] = 'django.db.backends.postgresql'
 else:
-    # Local development settings: Read individual variables from .env
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
@@ -132,8 +129,6 @@ CHANNEL_LAYERS = {
     },
 }
 
-
-# Role codes for signup
 ADMIN_CODE = config('ADMIN_CODE', default='admin_default')
 MANAGER_CODE = config('MANAGER_CODE', default='manager_default')
 STAFF_CODE = config('STAFF_CODE', default='staff_default')
