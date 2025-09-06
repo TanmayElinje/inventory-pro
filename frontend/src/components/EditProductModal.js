@@ -12,7 +12,6 @@ const EditProductModal = ({ show, handleClose, product, onProductUpdated }) => {
 
     useEffect(() => {
         if (product) {
-            // Pre-fill form data when a product is passed in
             setFormData({
                 name: product.name, sku: product.sku, quantity: product.quantity,
                 sale_price: product.sale_price, cost_price: product.cost_price,
@@ -20,9 +19,7 @@ const EditProductModal = ({ show, handleClose, product, onProductUpdated }) => {
             });
         }
         if (show) {
-            // Reset image on open
             setProductImage(null);
-            // Fetch categories and suppliers for dropdowns
             api.get('/api/categories/').then(res => setCategories(res.data.results || res.data));
             api.get('/api/suppliers/').then(res => setSuppliers(res.data.results || res.data));
         }
@@ -47,7 +44,6 @@ const EditProductModal = ({ show, handleClose, product, onProductUpdated }) => {
             data.append('image', productImage);
         }
         
-        // Use PATCH instead of PUT to allow partial updates (e.g., not requiring a new image every time)
         api.patch(`/api/products/${product.id}/`, data, {
             headers: { 'Content-Type': 'multipart/form-data' }
         }).then(res => {
