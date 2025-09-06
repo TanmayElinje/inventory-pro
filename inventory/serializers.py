@@ -24,11 +24,9 @@ class CategorySerializer(serializers.ModelSerializer):
         fields = ['id', 'name', 'image_url']
 
 class ProductSerializer(serializers.ModelSerializer):
-    # For reading, show the full nested object
     category = CategorySerializer(read_only=True)
     supplier = SupplierSerializer(read_only=True)
     images = ProductImageSerializer(many=True, read_only=True)
-    # For writing, accept the ID
     category_id = serializers.PrimaryKeyRelatedField(
         queryset=Category.objects.all(), source='category', write_only=True
     )
@@ -36,8 +34,6 @@ class ProductSerializer(serializers.ModelSerializer):
         queryset=Supplier.objects.all(), source='supplier', write_only=True
     )
 
-    # --- THIS IS THE KEY PART ---
-    # A special field that gets its value from a custom method
     forecast = serializers.SerializerMethodField()
 
     class Meta:
@@ -45,18 +41,14 @@ class ProductSerializer(serializers.ModelSerializer):
         fields = [
             'id', 'name', 'sku', 'category', 'supplier', 'cost_price',
             'sale_price', 'quantity', 'reorder_point', 'category_id', 'supplier_id',
-            'forecast', 'images' # Add 'forecast' to the list of fields
+            'forecast', 'images' 
         ]
     
-    # This method is called to populate the 'forecast' field
     def get_forecast(self, obj):
-        # 'obj' is the Product instance.
-        # We check the context to see if this is a 'detail' view ('retrieve')
-        # or a 'list' view. We only run the forecast on the detail view for performance.
         view = self.context.get('view', None)
         if view and view.action == 'retrieve':
             return get_sales_forecast(obj.id)
-        return None # Return nothing if it's the main product list
+        return None 
 
 class StockMovementSerializer(serializers.ModelSerializer):
     user = serializers.StringRelatedField(read_only=True)
@@ -106,11 +98,10 @@ class RegisterSerializer(serializers.ModelSerializer):
         elif code == settings.STAFF_CODE:
             group_name = 'Staff'
         else:
-            user.delete() # Prevent user creation with invalid code
+            user.delete() 
             raise serializers.ValidationError({"code": "Invalid role code provided."})
 
         if group_name:
-            # Ensure all groups exist before assigning
             Group.objects.get_or_create(name='Admin')
             Group.objects.get_or_create(name='Manager')
             Group.objects.get_or_create(name='Staff')
