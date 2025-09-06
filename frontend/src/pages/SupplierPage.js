@@ -78,7 +78,6 @@ const SupplierPage = () => {
             
             {error && <Alert variant="danger">{error}</Alert>}
 
-            {/* --- THIS IS THE UPDATED PART --- */}
             <div className="table-container">
                 <Table responsive className="custom-table">
                     <thead>
