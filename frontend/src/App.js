@@ -15,10 +15,8 @@ import SignUpModal from './components/SignUpModal';
 const PrivateRoute = ({ children }) => {
     const { user, isLoading } = useAuth();
     if (isLoading) {
-        // You can add a spinner or a loading component here
         return <div>Loading...</div>;
     }
-    // If not loading and no user, redirect to the public landing page
     return user ? children : <Navigate to="/" />;
 };
 
@@ -37,7 +35,6 @@ function App() {
           <Route path="/dashboard" element={<PrivateRoute><DashboardPage /></PrivateRoute>} />
         </Routes>
         
-        {/* Render the modals here so they are globally available */}
         <LoginModal />
         <SignUpModal />
       </main>
