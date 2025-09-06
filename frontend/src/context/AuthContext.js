@@ -1,7 +1,7 @@
 // frontend/src/context/AuthContext.js
 
 import React, { createContext, useState, useContext, useEffect } from 'react';
-import api from '../api/axiosConfig'; // <-- Use our new, configured api instance
+import api from '../api/axiosConfig'; 
 
 const AuthContext = createContext(null);
 
@@ -12,7 +12,6 @@ export const AuthProvider = ({ children }) => {
     useEffect(() => {
         const token = localStorage.getItem('access_token');
         if (token) {
-            // The interceptor in axiosConfig.js automatically sets the header
             api.get('/api/user/')
                 .then(response => {
                     setUser(response.data);
@@ -30,8 +29,6 @@ export const AuthProvider = ({ children }) => {
     }, []);
 
     const login = async (username, password) => {
-        // --- THIS IS THE FIX ---
-        // Use 'api.post' which has the correct baseURL (http://127.0.0.1:8000)
         const response = await api.post('/api/token/', { username, password });
         
         localStorage.setItem('access_token', response.data.access);
